@@ -60,7 +60,7 @@ public class About extends SettingsPreferenceFragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.crdroid_settings_about);
+        addPreferencesFromResource(R.xml.baikalos_settings_about);
 
         mSourceUrl = findPreference(KEY_CRDROID_SOURCE);
         mTelegramUrl = findPreference(KEY_CRDROID_TELEGRAM);
@@ -115,5 +115,5 @@ public class About extends SettingsPreferenceFragment {
      * For search
      */
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.crdroid_settings_about);
+            new BaseSearchIndexProvider(R.xml.baikalos_settings_about);
 }
