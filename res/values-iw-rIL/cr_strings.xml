@@ -90,7 +90,7 @@
     <string name="crdroid_donate_message">crDroid Android הוא פרוייקט קוד פתוחהזקוק לעזרתך כדי להמשיך ולהחזיק את האתר פעיל, את שרתי הגירסאות \"באוויר\" ולספק גרסאות באיכות גבוהה למכשיר שלך.\n\n
 תרומה קטנה עוזרת לשמור את הפרוייקט חי ומשתפר. ניתן לסגור הודעה זו, אך תמיכתך משמעותית מאד עבורינו.</string>
     <string name="crdroid_donate_button">תרומה כעת</string>
-    <string name="crdroid_later_button">אולי מאוחר יותר</string>
+    <string name="crdroid_later_button">Maybe next month</string>
     <string name="crdroid_channel_name">התראות crDroid</string>
     <string name="crdroid_channel_desc">התראות פרטניות לפרוייקט</string>
     <string name="crdroid_donate_still_needed">אנחנו עדיין זקוקים ל- €%,d החודש. עיזרו לנו להגיע ליעד.</string>
@@ -121,12 +121,6 @@
     <string name="status_bar_battery_category_title">התאמה אישית של הבטרייה</string>
     <!-- Gestures -->
     <string name="gestures_title">מחוות</string>
-    <!-- 4G icon -->
-    <string name="show_fourg_icon_title">סמל 4G</string>
-    <string name="show_fourg_icon_summary">הצג סמל 4G בשורת המצב במקום LTE</string>
-    <!-- Data disabled indicator -->
-    <string name="data_disabled_icon_title">סמל נתונים מושבתים</string>
-    <string name="data_disabled_icon_summary">הצג סימן ליד סמל הנתונים הניידים כאשר הם מושבתים</string>
     <!-- Lockscreen categories -->
     <string name="lockscreen_interface_category">ממשק</string>
     <!-- Lockscreen battery info indicator -->
@@ -366,14 +360,8 @@
     <string name="status_bar_clock_position_right">ימינה</string>
     <string name="status_bar_clock_position_left">שמאלה</string>
     <string name="status_bar_clock_position_center">מרכז</string>
-    <string name="status_bar_clock_position_hidden">מוסתר</string>
     <string name="status_bar_clock_auto_hide_title">הסתרה אוטומטית</string>
-    <string name="status_bar_clock_auto_hide_launcher_summary">הסתרת שעון במסך דף הבית</string>
-    <string name="status_bar_clock_auto_hide_summary">הסתרת השעון במרווחים קצובים</string>
-    <string name="status_bar_clock_auto_hide_hdur_title">משך הסתרה</string>
-    <string name="status_bar_clock_auto_hide_hdur_summary">מספר השניות להחבאת השעון</string>
-    <string name="status_bar_clock_auto_hide_sdur_title">משך הצגה</string>
-    <string name="status_bar_clock_auto_hide_sdur_summary">מספר שניות להמתנה לפני הסתרת השעון</string>
+    <string name="status_bar_clock_auto_hide_summary">הסתרת שעון במסך דף הבית</string>
     <string name="status_bar_am_pm_title">שעון AM/PM</string>
     <string name="status_bar_am_pm_info">שעון 24 שעות הופעל</string>
     <string name="status_bar_am_pm_normal">רגיל</string>
@@ -394,7 +382,6 @@
     <string name="clock_date_position">מיקום תאריך</string>
     <string name="clock_date_right">מימין לשעון</string>
     <string name="clock_date_left">משמאל לשעון</string>
-    <string name="clock_font_size_title">גודל גופן השעון</string>
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">סגנון תצוגת סוללה</string>
     <string name="status_bar_battery_style_icon_portrait">סמל דיוקן</string>
@@ -408,6 +395,7 @@
     <string name="status_bar_battery_percent_title">אחוז סוללה</string>
     <string name="status_bar_battery_percent_hidden">מוסתר</string>
     <string name="status_bar_battery_percent_text_inside">בתוך הסמל</string>
+    <string name="status_bar_battery_percent_text_next">Next to the icon</string>
     <string name="status_bar_battery_percent_text_next_right">ליד הסמל (מימין)</string>
     <string name="status_bar_battery_percent_text_next_left">ליד הסמל (משמאל)</string>
     <string name="status_bar_battery_text_charging_title">אחוז הסוללה כאשר מטעינים</string>
@@ -642,9 +630,6 @@
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">אפקט דומינו</string>
     <string name="enable_fingerprint_ripple_effect_summary">הראה אפקט דומינו כאשר מבטלים את נעילת הטלפון עם טביעת אצבע</string>
-    <!-- Old mobiletype icon style -->
-    <string name="old_mobiletype_title">סגנון ישן של סמל הנתונים</string>
-    <string name="old_mobiletype_summary">מזג את סמלי הנתונים הניידים וסוגם</string>
     <!-- Screen Off animation -->
     <string name="screen_off_animation_title">אנימציית כיבוי מסך</string>
     <string name="screen_off_animation_default">ברירת מחדל</string>
@@ -1005,13 +990,6 @@
     <string name="qs_header_offset_title">הסטת תמונת הכותרת</string>
     <string name="qs_header_offset_summary">התאמת גודל תמונת הכותרת</string>
     <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
-    <!-- Volume Steps -->
-    <string name="volume_steps_title">שנתות עוצמת השמע</string>
-    <string name="volume_steps_summary">הגדרת מידת הדיוק של התאמת עוצמת השמע</string>
-    <string name="max_music_volume_title">מדיה</string>
-    <string name="max_call_volume_title">שיחות</string>
-    <string name="max_alarm_volume_title">שעונים מעוררים</string>
-    <string name="steps_unit">שלבים</string>
     <!-- AOD Schedule -->
     <string name="always_on_display_schedule_title">הצגת לוח השנה</string>
     <string name="always_on_display_schedule_summary">בחירת לוחות השנה לתצוגה הקבועה (Always On display)</string>
@@ -1112,8 +1090,8 @@
     <!-- Brightness Slider Style -->
     <string name="qs_brightness_slider_shape_title">Brightness slider shape</string>
     <!-- Force LTE_CA -->
-    <string name="force_lte_ca">אילוץ צבירת ספקי LTE</string>
-    <string name="force_lte_ca_summary">אילוץ הפעלה של צבירה של ספקי LTE</string>
+    <string name="force_lte_ca_title">LTE carrier aggregation</string>
+    <string name="force_lte_ca_summary">Enhances LTE bandwidth by aggregating supported bands</string>
     <!-- QS on lockscreen -->
     <string name="lockscreen_quick_settings_title">QS on lock screen</string>
     <string name="lockscreen_quick_settings_summary">Allow swipe down on lock screen to view Quick Settings</string>
@@ -1159,6 +1137,7 @@
     <string name="pulse_renderer_retro_vu_meter">Retro VU meter</string>
     <string name="pulse_renderer_minimal_wave">Minimal wave</string>
     <string name="pulse_renderer_sparkle">Sparkle</string>
+    <string name="pulse_renderer_matrix">Matrix</string>
     <!-- Notification Row -->
     <string name="notification_row_transparency_title">התראות שקופות</string>
     <string name="notification_row_transparency_summary">קביעת רקע שקוף להתראות בהגדרות המהירות</string>
@@ -1173,4 +1152,8 @@
     <!-- Vbmeta hash attestation -->
     <string name="vbmeta_attestation_title">Autofix VBMeta detection</string>
     <string name="vbmeta_attestation_summary">Perform key attestation to generate verified boot hash on boot. Requires system restart.</string>
+    <!-- Menu option for not validating the EAP server -->
+    <string name="wifi_do_not_validate_eap_server">Do not validate</string>
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <string name="wifi_do_not_validate_eap_server_warning">No certificate specified. Your connection will not be private.</string>
 </resources>

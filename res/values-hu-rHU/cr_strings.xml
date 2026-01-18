@@ -90,7 +90,7 @@
     <string name="crdroid_donate_message">A crDroid egy nyílt forráskódú projekt, weboldaluk fenntartásához, a romokat őrző szerverek üzemeltetéséhez és remek kiadások létrehozásához szükségük van az Ön segítségére.\n\n
 Egy kis adomány is segíthet életben tartani és fejleszteni ezt a projektet. Elutasíthatja ezt az üzenetet, de minden támogatás sokat jelent nekünk.</string>
     <string name="crdroid_donate_button">Azonnali adomány</string>
-    <string name="crdroid_later_button">Lehetséges majd később</string>
+    <string name="crdroid_later_button">Talán a következő hónapban</string>
     <string name="crdroid_channel_name">crDroid-értesítések</string>
     <string name="crdroid_channel_desc">A fejlesztésről szóló értesítések</string>
     <string name="crdroid_donate_still_needed">Ebben a hónapban még %,d €-ra lenne szükségünk. Segítsen nekünk, hogy elérjük célunkat.</string>
@@ -121,12 +121,6 @@ Egy kis adomány is segíthet életben tartani és fejleszteni ezt a projektet. 
     <string name="status_bar_battery_category_title">Akkumulátor testreszabása</string>
     <!-- Gestures -->
     <string name="gestures_title">Gesztusok</string>
-    <!-- 4G icon -->
-    <string name="show_fourg_icon_title">4G-ikon</string>
-    <string name="show_fourg_icon_summary">4G-ikon megjelenítése LTE helyett</string>
-    <!-- Data disabled indicator -->
-    <string name="data_disabled_icon_title">Letiltott adatforgalmi kijelző</string>
-    <string name="data_disabled_icon_summary">A térerő mellett X-jel megjelenítése, ha a mobiladat-forgalom le van tiltva</string>
     <!-- Lockscreen categories -->
     <string name="lockscreen_interface_category">Felület</string>
     <!-- Lockscreen battery info indicator -->
@@ -364,14 +358,8 @@ Egy kis adomány is segíthet életben tartani és fejleszteni ezt a projektet. 
     <string name="status_bar_clock_position_right">Jobbra</string>
     <string name="status_bar_clock_position_left">Balra</string>
     <string name="status_bar_clock_position_center">Középre</string>
-    <string name="status_bar_clock_position_hidden">Rejtett</string>
     <string name="status_bar_clock_auto_hide_title">Automatikus elrejtés</string>
-    <string name="status_bar_clock_auto_hide_launcher_summary">Óraelrejtés ha a Launcher látszik</string>
-    <string name="status_bar_clock_auto_hide_summary">Óraelrejtés rendszeres időközönként</string>
-    <string name="status_bar_clock_auto_hide_hdur_title">Az elrejtés hossza</string>
-    <string name="status_bar_clock_auto_hide_hdur_summary">Az elrejtési idő hosszúsága másodpercben</string>
-    <string name="status_bar_clock_auto_hide_sdur_title">A megjelenítés hossza</string>
-    <string name="status_bar_clock_auto_hide_sdur_summary">A megjelenítési idő hosszúsága másodpercben</string>
+    <string name="status_bar_clock_auto_hide_summary">Óraelrejtés ha a Launcher látszik</string>
     <string name="status_bar_am_pm_title">A DE/DU megjelenítés stílusa</string>
     <string name="status_bar_am_pm_info">24-órás formátum engedélyezve</string>
     <string name="status_bar_am_pm_normal">Szokásos</string>
@@ -392,7 +380,6 @@ Egy kis adomány is segíthet életben tartani és fejleszteni ezt a projektet. 
     <string name="clock_date_position">A Dátum pozíciója</string>
     <string name="clock_date_right">Az órától jobbra</string>
     <string name="clock_date_left">Az órától balra</string>
-    <string name="clock_font_size_title">Az Óra betűmérete</string>
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">Akkumulátorstílus</string>
     <string name="status_bar_battery_style_icon_portrait">Álló ikon</string>
@@ -406,6 +393,7 @@ Egy kis adomány is segíthet életben tartani és fejleszteni ezt a projektet. 
     <string name="status_bar_battery_percent_title">Akkumulátorszázalék</string>
     <string name="status_bar_battery_percent_hidden">Rejtett</string>
     <string name="status_bar_battery_percent_text_inside">Az ikon belsejében</string>
+    <string name="status_bar_battery_percent_text_next">Az ikon mellet</string>
     <string name="status_bar_battery_percent_text_next_right">Az ikon mellett (jobb)</string>
     <string name="status_bar_battery_percent_text_next_left">Az ikon mellett (bal)</string>
     <string name="status_bar_battery_text_charging_title">Akkuszázalék töltés közben</string>
@@ -640,9 +628,6 @@ Egy kis adomány is segíthet életben tartani és fejleszteni ezt a projektet. 
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">Hullámeffektus</string>
     <string name="enable_fingerprint_ripple_effect_summary">Ujjlenyomatos feloldáskor hullámeffektus</string>
-    <!-- Old mobiletype icon style -->
-    <string name="old_mobiletype_title">Régi stílusú hálózati-jelerősség ikon</string>
-    <string name="old_mobiletype_summary">Összevonja a jelerősség-ikonokat</string>
     <!-- Screen Off animation -->
     <string name="screen_off_animation_title">Képernyő-kikapcsolási animáció</string>
     <string name="screen_off_animation_default">Alapértelmezett</string>
@@ -1001,13 +986,6 @@ Egy kis adomány is segíthet életben tartani és fejleszteni ezt a projektet. 
     <string name="qs_header_offset_title">Fejléckép-elhelyezés</string>
     <string name="qs_header_offset_summary">Állítsa be a kép fejlécét</string>
     <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
-    <!-- Volume Steps -->
-    <string name="volume_steps_title">Hangerőléptetések</string>
-    <string name="volume_steps_summary">Az egyes adatfolyamok részletességének szabályozása</string>
-    <string name="max_music_volume_title">Média</string>
-    <string name="max_call_volume_title">Hívások</string>
-    <string name="max_alarm_volume_title">Ébresztések</string>
-    <string name="steps_unit">lépések</string>
     <!-- AOD Schedule -->
     <string name="always_on_display_schedule_title">AOD-ütemezés</string>
     <string name="always_on_display_schedule_summary">Ütemezéseket állíthat be a \'Mindig bekapcsolvá-hoz</string>
@@ -1108,8 +1086,8 @@ Egy kis adomány is segíthet életben tartani és fejleszteni ezt a projektet. 
     <!-- Brightness Slider Style -->
     <string name="qs_brightness_slider_shape_title">Fényerő csúszka alakja</string>
     <!-- Force LTE_CA -->
-    <string name="force_lte_ca">Az LTE CA erőltetése</string>
-    <string name="force_lte_ca_summary">A működéshez kényszerítse az LTE szolgáltató aggregációt</string>
+    <string name="force_lte_ca_title">LTE carrier aggregation</string>
+    <string name="force_lte_ca_summary">Enhances LTE bandwidth by aggregating supported bands</string>
     <!-- QS on lockscreen -->
     <string name="lockscreen_quick_settings_title">QS a lezárt képernyőn</string>
     <string name="lockscreen_quick_settings_summary">A gyors beállítások megtekintéséhez engedélyezze a lefelé húzást a lezárási képernyőn</string>
@@ -1155,6 +1133,7 @@ Egy kis adomány is segíthet életben tartani és fejleszteni ezt a projektet. 
     <string name="pulse_renderer_retro_vu_meter">Retro hangerőmérő</string>
     <string name="pulse_renderer_minimal_wave">Egyszerű hullám</string>
     <string name="pulse_renderer_sparkle">Szikra</string>
+    <string name="pulse_renderer_matrix">Mátrix</string>
     <!-- Notification Row -->
     <string name="notification_row_transparency_title">Áttetsző értesítések</string>
     <string name="notification_row_transparency_summary">Az értesítések áttetsző háttérének beállítása a gyorsbeállításokon</string>
@@ -1169,4 +1148,8 @@ Egy kis adomány is segíthet életben tartani és fejleszteni ezt a projektet. 
     <!-- Vbmeta hash attestation -->
     <string name="vbmeta_attestation_title">A VBMeta-észlelés automatikus javítása</string>
     <string name="vbmeta_attestation_summary">Kulcshitelesítés végrehajtása ellenőrzött rendszerindítási hash létrehozásához rendszerindításkor. A rendszer újraindítását igényli.</string>
+    <!-- Menu option for not validating the EAP server -->
+    <string name="wifi_do_not_validate_eap_server">Ne legyen érvényesítés</string>
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <string name="wifi_do_not_validate_eap_server_warning">Nincs megadva tanúsítvány. Az Ön kapcsolata nem lesz privát.</string>
 </resources>

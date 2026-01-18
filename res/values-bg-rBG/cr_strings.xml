@@ -85,19 +85,19 @@
     <!-- Support crDroid -->
     <string name="crdroid_donate_preference_title">Подкрепете ни</string>
     <string name="crdroid_donate_preference_summary">Направете дарение, за да подкрепите разработването за напред</string>
-    <string name="crdroid_donate_title">crDroid needs your help!</string>
-    <string name="crdroid_donate_notification_text">Tap to learn more</string>
-    <string name="crdroid_donate_message">crDroid Android is an open-source project which needs your help to keep website online, our build servers running, and to deliver high-quality builds for your device.\n\n
-A small donation helps keep this project alive and improving. You can dismiss this message, but your support means a lot to us.</string>
-    <string name="crdroid_donate_button">Donate now</string>
-    <string name="crdroid_later_button">Maybe later</string>
-    <string name="crdroid_channel_name">crDroid notifications</string>
-    <string name="crdroid_channel_desc">Project specific notifications</string>
-    <string name="crdroid_donate_still_needed">We still need €%,d this month. Help us reach our goal.</string>
-    <string name="crdroid_donate_thank_you">We appreciate all donations for this month. You can still contribute and make a difference!</string>
+    <string name="crdroid_donate_title">crDroid се нуждае от вашата помощ!</string>
+    <string name="crdroid_donate_notification_text">Докоснете, за да научите повече</string>
+    <string name="crdroid_donate_message">crDroid Android е проект с отворен код, който се нуждае от вашата помощ, за да поддържа уебсайта онлайн, нашите сървъри за изграждане да работят и да предоставя висококачествени компилации за вашето устройство.\n\n
+Малко дарение помага за поддържането на този проект жив и усъвършенстван. Можете да отхвърлите това съобщение, но вашата подкрепа означава много за нас.</string>
+    <string name="crdroid_donate_button">Дарете сега</string>
+    <string name="crdroid_later_button">Може би следващия месец</string>
+    <string name="crdroid_channel_name">Известия от crDroid</string>
+    <string name="crdroid_channel_desc">Известия, специфични за проекта</string>
+    <string name="crdroid_donate_still_needed">Все още ни трябват €%d този месец. Помогнете ни да постигнем целта си.</string>
+    <string name="crdroid_donate_thank_you">Оценяваме всички дарения за този месец. Все още можете да допринесете и да промените нещата!</string>
     <string name="crdroid_donate_raised">€%,d raised</string>
     <string name="crdroid_donate_total">of €%,d goal</string>
-    <string name="crdroid_donate_loading">Updating progress...</string>
+    <string name="crdroid_donate_loading">Напредък...</string>
     <!-- OTA -->
     <string name="crdroid_update_title">Актуализации</string>
     <string name="crdroid_update_summary">Проверете за актуализация на ОТА и връзки за вашето устройство</string>
@@ -121,12 +121,6 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <string name="status_bar_battery_category_title">Персонализиране на батерията</string>
     <!-- Gestures -->
     <string name="gestures_title">Жестове</string>
-    <!-- 4G icon -->
-    <string name="show_fourg_icon_title">Иконка за 4G</string>
-    <string name="show_fourg_icon_summary">Показване 4G икона в сигнал икона вместо LTE</string>
-    <!-- Data disabled indicator -->
-    <string name="data_disabled_icon_title">Индикатор за деактивирани данни</string>
-    <string name="data_disabled_icon_summary">Показва \"х\" до иконата за сигнала, когато данните са забранени</string>
     <!-- Lockscreen categories -->
     <string name="lockscreen_interface_category">Изглед</string>
     <!-- Lockscreen battery info indicator -->
@@ -364,14 +358,8 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <string name="status_bar_clock_position_right">Отдясно</string>
     <string name="status_bar_clock_position_left">Отляво</string>
     <string name="status_bar_clock_position_center">В средата</string>
-    <string name="status_bar_clock_position_hidden">Скрит</string>
     <string name="status_bar_clock_auto_hide_title">Автоматично скриване</string>
-    <string name="status_bar_clock_auto_hide_launcher_summary">Скриване на часовника, ако стартерът е видим</string>
-    <string name="status_bar_clock_auto_hide_summary">Скриване на часовника на редовни интервали</string>
-    <string name="status_bar_clock_auto_hide_hdur_title">Скриване на продължителността</string>
-    <string name="status_bar_clock_auto_hide_hdur_summary">Брой секунди за скриване на часовника</string>
-    <string name="status_bar_clock_auto_hide_sdur_title">Показване на продължителност</string>
-    <string name="status_bar_clock_auto_hide_sdur_summary">Брой секунди за изчакване, преди да скриете часовника</string>
+    <string name="status_bar_clock_auto_hide_summary">Скриване на часовника, ако стартерът е видим</string>
     <string name="status_bar_am_pm_title">AM/PM стил</string>
     <string name="status_bar_am_pm_info">Включен 24-часов формат за време</string>
     <string name="status_bar_am_pm_normal">Нормален</string>
@@ -392,7 +380,6 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <string name="clock_date_position">Позиция на датата</string>
     <string name="clock_date_right">Вдясно от часовника</string>
     <string name="clock_date_left">Вляво от часовника</string>
-    <string name="clock_font_size_title">时钟字体大小</string>
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">Стил на индикатора за батерията</string>
     <string name="status_bar_battery_style_icon_portrait">Вертикална икона</string>
@@ -406,6 +393,7 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <string name="status_bar_battery_percent_title">Процент на батерията</string>
     <string name="status_bar_battery_percent_hidden">Скрит</string>
     <string name="status_bar_battery_percent_text_inside">Вътре в иконата</string>
+    <string name="status_bar_battery_percent_text_next">Next to the icon</string>
     <string name="status_bar_battery_percent_text_next_right">До иконата (вдясно)</string>
     <string name="status_bar_battery_percent_text_next_left">До иконата (вляво)</string>
     <string name="status_bar_battery_text_charging_title">Процент на батерията при зареждане</string>
@@ -640,9 +628,6 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">Ефект на вълни</string>
     <string name="enable_fingerprint_ripple_effect_summary">Покажи ефект на вълни при отключване с пръстов отпечатък</string>
-    <!-- Old mobiletype icon style -->
-    <string name="old_mobiletype_title">Икона стар стил за сигнал</string>
-    <string name="old_mobiletype_summary">Обединяване на икони за сигнал и тип сигнал</string>
     <!-- Screen Off animation -->
     <string name="screen_off_animation_title">Анимация за изключване на екрана</string>
     <string name="screen_off_animation_default">По подразбиране</string>
@@ -980,8 +965,8 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <!-- Radio Info -->
     <string name="radio_info_title">Информация за радио</string>
     <!-- QS Header -->
-    <string name="qs_header_image_title">Header image</string>
-    <string name="qs_header_image_summary">Select QS background header image</string>
+    <string name="qs_header_image_title">Хедър изображение</string>
+    <string name="qs_header_image_summary">Изберете изображение за фон на header</string>
     <string name="qs_header_daylight_pack_title">Заглавна снимка колекция</string>
     <string name="qs_header_shadow_title">Пакет от заглавни изображения</string>
     <string name="qs_header_shadow_summary">За по-добра видимост на ярки изображения</string>
@@ -995,32 +980,25 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <string name="qs_header_pick_summary">Дълго натиснете върху което и да е изображение, за да го използвате в статичен режим</string>
     <string name="qs_header_file_select_title">Избери снимка</string>
     <string name="qs_header_file_select_summary">Изберете потребителско изображение</string>
-    <string name="qs_header_needs_gallery">You must install a gallery app!</string>
-    <string name="qs_header_offset_title">Header image offset</string>
-    <string name="qs_header_offset_summary">Adjust the image header size</string>
+    <string name="qs_header_needs_gallery">Инсталирайте, приложение за галерия!</string>
+    <string name="qs_header_offset_title">Отместване на  header изображение</string>
+    <string name="qs_header_offset_summary">Регулиране, размера на header фон</string>
     <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
-    <!-- Volume Steps -->
-    <string name="volume_steps_title">Volume Steps</string>
-    <string name="volume_steps_summary">Control the granularity of each stream</string>
-    <string name="max_music_volume_title">Медия</string>
-    <string name="max_call_volume_title">Обаждания</string>
-    <string name="max_alarm_volume_title">Будилници</string>
-    <string name="steps_unit">steps</string>
     <!-- AOD Schedule -->
-    <string name="always_on_display_schedule_title">Display schedule</string>
-    <string name="always_on_display_schedule_summary">Set schedule for always on display</string>
-    <string name="always_on_display_schedule_sunset">Sunset</string>
-    <string name="always_on_display_schedule_sunrise">Sunrise</string>
-    <string name="always_on_display_schedule_mixed_sunset">Turns on from sunset till a time</string>
-    <string name="always_on_display_schedule_mixed_sunrise">Turns on from a time till sunrise</string>
+    <string name="always_on_display_schedule_title">Покажи график</string>
+    <string name="always_on_display_schedule_summary">Задай график за постоянно показване</string>
+    <string name="always_on_display_schedule_sunset">Залез</string>
+    <string name="always_on_display_schedule_sunrise">Изгрев</string>
+    <string name="always_on_display_schedule_mixed_sunset">Включи от залез слънце до определен час</string>
+    <string name="always_on_display_schedule_mixed_sunrise">Включи от зададено време до изгрев слънце</string>
     <!-- QS Bluetooth Dialog -->
-    <string name="qs_bt_show_dialog_title">Bluetooth tile dialog</string>
-    <string name="qs_bt_show_dialog_summary">Show bluetooth dialog or toggle bluetooth state on tapping bluetooth tile</string>
+    <string name="qs_bt_show_dialog_title">Bluetooth диалогов прозорец</string>
+    <string name="qs_bt_show_dialog_summary">Показване на прозорец на Bluetooth или превключване на състоянието на Bluetooth при докосване</string>
     <!-- Carrier name on lockscreen -->
-    <string name="lockscreen_show_carrier_title">Carrier name</string>
-    <string name="lockscreen_show_carrier_summary">Display carrier name in the status bar</string>
+    <string name="lockscreen_show_carrier_title">Име на оператор</string>
+    <string name="lockscreen_show_carrier_summary">Покажи оператор в лента с известия</string>
     <!-- Statusbar Padding -->
-    <string name="statusbar_extra_padding_category">Extra padding</string>
+    <string name="statusbar_extra_padding_category">Допълнителен отстъп</string>
     <string name="statusbar_extra_padding_start_title">Start padding</string>
     <string name="statusbar_extra_padding_top_title">Top padding</string>
     <string name="statusbar_extra_padding_end_title">End padding</string>
@@ -1076,7 +1054,7 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <!-- Notification / Power Menu Styles -->
     <string name="notification_style_title">Notification style</string>
     <string name="powermenu_style_title">Power menu style</string>
-    <string name="custom_style_cyberpunk">Cyberpunk</string>
+    <string name="custom_style_cyberpunk">Киберпънк</string>
     <string name="custom_style_duoline">Duoline</string>
     <string name="custom_style_fluid">Fluid (Transparent)</string>
     <string name="custom_style_ios">IOS</string>
@@ -1084,12 +1062,12 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <!-- Keybox Data -->
     <string name="keybox_data_title">Keybox attestation override</string>
     <string name="keybox_data_summary">Load a custom keybox XML to override device key attestation</string>
-    <string name="keybox_data_loaded_summary">Custom keybox XML loaded. Delete to clear.</string>
-    <string name="keybox_delete_content_description">Clear keybox data</string>
-    <string name="keybox_toast_invalid_file_selected">Not an XML file. Choose a valid keybox XML.</string>
-    <string name="keybox_toast_missing_data">Invalid keybox XML: required fields missing</string>
-    <string name="keybox_toast_file_loaded">Keybox loaded</string>
-    <string name="keybox_toast_file_cleared">Keybox cleared</string>
+    <string name="keybox_data_loaded_summary">Къстам keybox XML е зареден. Изтрий за изчистване.</string>
+    <string name="keybox_delete_content_description">Изчисти keybox дани</string>
+    <string name="keybox_toast_invalid_file_selected">Не е XML файл. Изберете валиден keybox XML.</string>
+    <string name="keybox_toast_missing_data">Невалиден keybox XML: липсват полета</string>
+    <string name="keybox_toast_file_loaded">Keybox е зареден</string>
+    <string name="keybox_toast_file_cleared">Keybox е изчистен</string>
     <!-- Block attestation even with Keybox Data -->
     <string name="pi_gmscertchain_title">Disable forcing strong integrity</string>
     <string name="pi_gmscertchain_summary">When enabled, do not enforce strong integrity from valid custom keybox and depend on Google Play Integrity spoof to fix apps like Google Pay</string>
@@ -1106,8 +1084,8 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <!-- Brightness Slider Style -->
     <string name="qs_brightness_slider_shape_title">Brightness slider shape</string>
     <!-- Force LTE_CA -->
-    <string name="force_lte_ca">Force LTE CA</string>
-    <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
+    <string name="force_lte_ca_title">LTE carrier aggregation</string>
+    <string name="force_lte_ca_summary">Enhances LTE bandwidth by aggregating supported bands</string>
     <!-- QS on lockscreen -->
     <string name="lockscreen_quick_settings_title">QS on lock screen</string>
     <string name="lockscreen_quick_settings_summary">Allow swipe down on lock screen to view Quick Settings</string>
@@ -1153,6 +1131,7 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <string name="pulse_renderer_retro_vu_meter">Retro VU meter</string>
     <string name="pulse_renderer_minimal_wave">Minimal wave</string>
     <string name="pulse_renderer_sparkle">Sparkle</string>
+    <string name="pulse_renderer_matrix">Matrix</string>
     <!-- Notification Row -->
     <string name="notification_row_transparency_title">Translucent notifications</string>
     <string name="notification_row_transparency_summary">Set translucent background for notifications in QS</string>
@@ -1167,4 +1146,8 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <!-- Vbmeta hash attestation -->
     <string name="vbmeta_attestation_title">Autofix VBMeta detection</string>
     <string name="vbmeta_attestation_summary">Perform key attestation to generate verified boot hash on boot. Requires system restart.</string>
+    <!-- Menu option for not validating the EAP server -->
+    <string name="wifi_do_not_validate_eap_server">Do not validate</string>
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <string name="wifi_do_not_validate_eap_server_warning">No certificate specified. Your connection will not be private.</string>
 </resources>

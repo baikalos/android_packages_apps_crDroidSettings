@@ -90,7 +90,7 @@
     <string name="crdroid_donate_message">crDroid Android é um projeto de código aberto que precisa de sua ajuda para se manter online, nossos servidores de build rodando e fornecendo compilações de alta qualidade para o seu dispositivo.\n\n
 Uma pequena doação ajuda a manter este projeto vivo e a melhorar. Você pode descartar esta mensagem, mas o seu apoio significa muito para nós.</string>
     <string name="crdroid_donate_button">Doar agora</string>
-    <string name="crdroid_later_button">Talvez mais tarde</string>
+    <string name="crdroid_later_button">Maybe next month</string>
     <string name="crdroid_channel_name">Notificações crDroid</string>
     <string name="crdroid_channel_desc">Notificações específicas do projeto</string>
     <string name="crdroid_donate_still_needed">Ainda precisamos de €%,d este mês. Ajude-nos a alcançar nossa meta.</string>
@@ -121,12 +121,6 @@ Uma pequena doação ajuda a manter este projeto vivo e a melhorar. Você pode d
     <string name="status_bar_battery_category_title">Personalizações da bateria</string>
     <!-- Gestures -->
     <string name="gestures_title">Gestos</string>
-    <!-- 4G icon -->
-    <string name="show_fourg_icon_title">Icone 4G</string>
-    <string name="show_fourg_icon_summary">Mostrar ícone 4G em vez LTE</string>
-    <!-- Data disabled indicator -->
-    <string name="data_disabled_icon_title">Mostrar ícone de dados móveis desativado</string>
-    <string name="data_disabled_icon_summary">Mostrar um ponto de exclamação ao lado do ícone de rede quando os dados estiverem desligados</string>
     <!-- Lockscreen categories -->
     <string name="lockscreen_interface_category">Interface</string>
     <!-- Lockscreen battery info indicator -->
@@ -364,14 +358,8 @@ Uma pequena doação ajuda a manter este projeto vivo e a melhorar. Você pode d
     <string name="status_bar_clock_position_right">Direita</string>
     <string name="status_bar_clock_position_left">Esquerda</string>
     <string name="status_bar_clock_position_center">Centro</string>
-    <string name="status_bar_clock_position_hidden">Oculto</string>
     <string name="status_bar_clock_auto_hide_title">Ocultar automaticamente</string>
-    <string name="status_bar_clock_auto_hide_launcher_summary">Ocultar relógio quando na tela inicial</string>
-    <string name="status_bar_clock_auto_hide_summary">Intervalo para ocultar o relógio</string>
-    <string name="status_bar_clock_auto_hide_hdur_title">Duração do ocultamento</string>
-    <string name="status_bar_clock_auto_hide_hdur_summary">Número de segundos para esconder relógio</string>
-    <string name="status_bar_clock_auto_hide_sdur_title">Definir duração</string>
-    <string name="status_bar_clock_auto_hide_sdur_summary">Número de segundos para esperar antes de esconder o relógio</string>
+    <string name="status_bar_clock_auto_hide_summary">Ocultar relógio quando na tela inicial</string>
     <string name="status_bar_am_pm_title">Estilo AM/PM</string>
     <string name="status_bar_am_pm_info">O formato de 24 horas está ativado</string>
     <string name="status_bar_am_pm_normal">Normal</string>
@@ -392,7 +380,6 @@ Uma pequena doação ajuda a manter este projeto vivo e a melhorar. Você pode d
     <string name="clock_date_position">Posição da data</string>
     <string name="clock_date_right">À direita do relógio</string>
     <string name="clock_date_left">À esquerda do relógio</string>
-    <string name="clock_font_size_title">Tamanho da fonte do relógio</string>
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">Estilo do ícone da bateria</string>
     <string name="status_bar_battery_style_icon_portrait">Ícone retrato</string>
@@ -406,6 +393,7 @@ Uma pequena doação ajuda a manter este projeto vivo e a melhorar. Você pode d
     <string name="status_bar_battery_percent_title">Porcentagem da bateria</string>
     <string name="status_bar_battery_percent_hidden">Escondido</string>
     <string name="status_bar_battery_percent_text_inside">Dentro do ícone</string>
+    <string name="status_bar_battery_percent_text_next">Ao lado do ícone</string>
     <string name="status_bar_battery_percent_text_next_right">Ao lado do ícone (direita)</string>
     <string name="status_bar_battery_percent_text_next_left">Ao lado do ícone (esquerda)</string>
     <string name="status_bar_battery_text_charging_title">Porcentagem da bateria ao carregar</string>
@@ -640,9 +628,6 @@ Uma pequena doação ajuda a manter este projeto vivo e a melhorar. Você pode d
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">Animação de desbloqueio</string>
     <string name="enable_fingerprint_ripple_effect_summary">Mostrar animação (efeito cascata) ao desbloquear usando a impressão digital</string>
-    <!-- Old mobiletype icon style -->
-    <string name="old_mobiletype_title">Ícone de sinal no estilo antigo</string>
-    <string name="old_mobiletype_summary">Mostrar o indicador de rede junto à barra de sinal</string>
     <!-- Screen Off animation -->
     <string name="screen_off_animation_title">Animação ao desligar a tela</string>
     <string name="screen_off_animation_default">Padrão</string>
@@ -999,13 +984,6 @@ Uma pequena doação ajuda a manter este projeto vivo e a melhorar. Você pode d
     <string name="qs_header_offset_title">Deslocamento da imagem do cabeçalho</string>
     <string name="qs_header_offset_summary">Ajustar tamanho da imagem do cabeçalho</string>
     <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
-    <!-- Volume Steps -->
-    <string name="volume_steps_title">Níveis de volume</string>
-    <string name="volume_steps_summary">Controle a granularidade de cada fluxo</string>
-    <string name="max_music_volume_title">Mídia</string>
-    <string name="max_call_volume_title">Chamadas</string>
-    <string name="max_alarm_volume_title">Alarmes</string>
-    <string name="steps_unit">passos</string>
     <!-- AOD Schedule -->
     <string name="always_on_display_schedule_title">Display inteligente</string>
     <string name="always_on_display_schedule_summary">Definir uma programação para tela sempre ativa</string>
@@ -1106,8 +1084,8 @@ Uma pequena doação ajuda a manter este projeto vivo e a melhorar. Você pode d
     <!-- Brightness Slider Style -->
     <string name="qs_brightness_slider_shape_title">Brightness slider shape</string>
     <!-- Force LTE_CA -->
-    <string name="force_lte_ca">Forçar LTE CA</string>
-    <string name="force_lte_ca_summary">Forçar LTE agredado </string>
+    <string name="force_lte_ca_title">LTE carrier aggregation</string>
+    <string name="force_lte_ca_summary">Enhances LTE bandwidth by aggregating supported bands</string>
     <!-- QS on lockscreen -->
     <string name="lockscreen_quick_settings_title">QS on lock screen</string>
     <string name="lockscreen_quick_settings_summary">Allow swipe down on lock screen to view Quick Settings</string>
@@ -1153,6 +1131,7 @@ Uma pequena doação ajuda a manter este projeto vivo e a melhorar. Você pode d
     <string name="pulse_renderer_retro_vu_meter">Retro VU meter</string>
     <string name="pulse_renderer_minimal_wave">Minimal wave</string>
     <string name="pulse_renderer_sparkle">Sparkle</string>
+    <string name="pulse_renderer_matrix">Matrix</string>
     <!-- Notification Row -->
     <string name="notification_row_transparency_title">Translucent notifications</string>
     <string name="notification_row_transparency_summary">Set translucent background for notifications in QS</string>
@@ -1167,4 +1146,8 @@ Uma pequena doação ajuda a manter este projeto vivo e a melhorar. Você pode d
     <!-- Vbmeta hash attestation -->
     <string name="vbmeta_attestation_title">Autofix VBMeta detection</string>
     <string name="vbmeta_attestation_summary">Perform key attestation to generate verified boot hash on boot. Requires system restart.</string>
+    <!-- Menu option for not validating the EAP server -->
+    <string name="wifi_do_not_validate_eap_server">Do not validate</string>
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <string name="wifi_do_not_validate_eap_server_warning">No certificate specified. Your connection will not be private.</string>
 </resources>

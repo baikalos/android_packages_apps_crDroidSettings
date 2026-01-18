@@ -90,7 +90,7 @@
     <string name="crdroid_donate_message">crDroid Android 是一个开源项目，需要您的帮助才能保持网站上线。 我们的构建服务器运行，并为您的设备提供高质量的构建。\n\n
 小额捐款有助于保持这个项目的活力和改进。 您可以忽略此消息，但您的支持对我们有很大的意义。</string>
     <string name="crdroid_donate_button">立即捐助</string>
-    <string name="crdroid_later_button">以后再说</string>
+    <string name="crdroid_later_button">也许下个月</string>
     <string name="crdroid_channel_name">crDroid 通知</string>
     <string name="crdroid_channel_desc">项目特定通知</string>
     <string name="crdroid_donate_still_needed">我们本月仍然需要%d。帮助我们实现我们的目标。</string>
@@ -121,12 +121,6 @@
     <string name="status_bar_battery_category_title">电池设置</string>
     <!-- Gestures -->
     <string name="gestures_title">手势</string>
-    <!-- 4G icon -->
-    <string name="show_fourg_icon_title">4G 图标</string>
-    <string name="show_fourg_icon_summary">在信号图标上显示 4G 而非 LTE</string>
-    <!-- Data disabled indicator -->
-    <string name="data_disabled_icon_title">数据禁用指示器</string>
-    <string name="data_disabled_icon_summary">当流量不可用时，显示图标旁边的 “×“ 图标</string>
     <!-- Lockscreen categories -->
     <string name="lockscreen_interface_category">界面</string>
     <!-- Lockscreen battery info indicator -->
@@ -363,14 +357,8 @@
     <string name="status_bar_clock_position_right">右侧</string>
     <string name="status_bar_clock_position_left">左侧</string>
     <string name="status_bar_clock_position_center">居中</string>
-    <string name="status_bar_clock_position_hidden">隐藏</string>
     <string name="status_bar_clock_auto_hide_title">自动隐藏</string>
-    <string name="status_bar_clock_auto_hide_launcher_summary">如果启动器可见，则隐藏时钟</string>
-    <string name="status_bar_clock_auto_hide_summary">定期隐藏时钟</string>
-    <string name="status_bar_clock_auto_hide_hdur_title">隐藏持续时间</string>
-    <string name="status_bar_clock_auto_hide_hdur_summary">隐藏时钟的秒数</string>
-    <string name="status_bar_clock_auto_hide_sdur_title">显示持续时间</string>
-    <string name="status_bar_clock_auto_hide_sdur_summary">隐藏时钟前等待的秒数</string>
+    <string name="status_bar_clock_auto_hide_summary">如果启动器可见，则隐藏时钟</string>
     <string name="status_bar_am_pm_title">上午/下午样式</string>
     <string name="status_bar_am_pm_info">启用 24 小时制</string>
     <string name="status_bar_am_pm_normal">正常</string>
@@ -391,7 +379,6 @@
     <string name="clock_date_position">日期位置</string>
     <string name="clock_date_right">位于时间右侧</string>
     <string name="clock_date_left">位于时间左侧</string>
-    <string name="clock_font_size_title">时钟字体大小</string>
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">电池样式</string>
     <string name="status_bar_battery_style_icon_portrait">纵向图标</string>
@@ -405,6 +392,7 @@
     <string name="status_bar_battery_percent_title">电量百分比</string>
     <string name="status_bar_battery_percent_hidden">隐藏</string>
     <string name="status_bar_battery_percent_text_inside">图标内</string>
+    <string name="status_bar_battery_percent_text_next">图标旁</string>
     <string name="status_bar_battery_percent_text_next_right">图标右侧</string>
     <string name="status_bar_battery_percent_text_next_left">图标左侧</string>
     <string name="status_bar_battery_text_charging_title">充电时电池百分比</string>
@@ -639,9 +627,6 @@
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">波纹效果</string>
     <string name="enable_fingerprint_ripple_effect_summary">使用指纹解锁时显示波纹效果</string>
-    <!-- Old mobiletype icon style -->
-    <string name="old_mobiletype_title">旧式信号图标</string>
-    <string name="old_mobiletype_summary">合并信号和信号类型图标</string>
     <!-- Screen Off animation -->
     <string name="screen_off_animation_title">屏幕关闭动画</string>
     <string name="screen_off_animation_default">默认</string>
@@ -998,13 +983,6 @@
     <string name="qs_header_offset_title">标题图片偏移</string>
     <string name="qs_header_offset_summary">调整标题图片大小</string>
     <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
-    <!-- Volume Steps -->
-    <string name="volume_steps_title">音量等级</string>
-    <string name="volume_steps_summary">控制每个音量条的精度</string>
-    <string name="max_music_volume_title">媒体</string>
-    <string name="max_call_volume_title">电话</string>
-    <string name="max_alarm_volume_title">闹钟</string>
-    <string name="steps_unit">级别</string>
     <!-- AOD Schedule -->
     <string name="always_on_display_schedule_title">显示时间</string>
     <string name="always_on_display_schedule_summary">设置始终显示的时间</string>
@@ -1105,8 +1083,8 @@
     <!-- Brightness Slider Style -->
     <string name="qs_brightness_slider_shape_title">亮度滑块形状</string>
     <!-- Force LTE_CA -->
-    <string name="force_lte_ca">强制 LTE 载波聚合</string>
-    <string name="force_lte_ca_summary">强制开启 LTE 载波聚合</string>
+    <string name="force_lte_ca_title">LTE 载波聚合</string>
+    <string name="force_lte_ca_summary">通过聚合支持的波段增强LTE带宽</string>
     <!-- QS on lockscreen -->
     <string name="lockscreen_quick_settings_title">在锁屏界面下滑以查看快速设置面板</string>
     <string name="lockscreen_quick_settings_summary">在设备锁定时隐藏通知阴影中的所有快速设置</string>
@@ -1151,7 +1129,8 @@
     <string name="pulse_renderer_neon_glow">霓虹灯</string>
     <string name="pulse_renderer_retro_vu_meter">音量调节器</string>
     <string name="pulse_renderer_minimal_wave">最小波浪</string>
-    <string name="pulse_renderer_sparkle">闪耀</string>
+    <string name="pulse_renderer_sparkle">闪烁</string>
+    <string name="pulse_renderer_matrix">矩阵</string>
     <!-- Notification Row -->
     <string name="notification_row_transparency_title">半透明通知</string>
     <string name="notification_row_transparency_summary">设置快速设置通知的半透明背景</string>
@@ -1166,4 +1145,8 @@
     <!-- Vbmeta hash attestation -->
     <string name="vbmeta_attestation_title">自动修复 VBMeta 检测</string>
     <string name="vbmeta_attestation_summary">执行密钥验证以在启动时生成验证的启动哈希。需要重启系统。</string>
+    <!-- Menu option for not validating the EAP server -->
+    <string name="wifi_do_not_validate_eap_server">不验证</string>
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <string name="wifi_do_not_validate_eap_server_warning">未指定证书。您的连接将不是私密的。</string>
 </resources>

@@ -89,7 +89,7 @@
     <string name="crdroid_donate_notification_text">點擊瞭解更多</string>
     <string name="crdroid_donate_message">crDroid Android 是一個開源專案，需要你的幫助來維持網站線上運作、建置伺服器的運行，並為你的裝置提供高品質的版本。\n\n 一點小額捐助就能讓這個專案持續運作並不斷改進。你可以關閉此訊息，但你的支持對我們意義重大。</string>
     <string name="crdroid_donate_button">馬上贊助</string>
-    <string name="crdroid_later_button">以後再說</string>
+    <string name="crdroid_later_button">下個月再說吧</string>
     <string name="crdroid_channel_name">crDroid 通知</string>
     <string name="crdroid_channel_desc">專案特定通知</string>
     <string name="crdroid_donate_still_needed">本月我們仍需 €%,d。幫助我們達成目標。</string>
@@ -120,12 +120,6 @@
     <string name="status_bar_battery_category_title">自訂電池</string>
     <!-- Gestures -->
     <string name="gestures_title">手勢</string>
-    <!-- 4G icon -->
-    <string name="show_fourg_icon_title">4G 圖示</string>
-    <string name="show_fourg_icon_summary">在訊號圖示上顯示 4G 而不是 LTE</string>
-    <!-- Data disabled indicator -->
-    <string name="data_disabled_icon_title">數據停用圖示</string>
-    <string name="data_disabled_icon_summary">當行動網路停用時，在訊號圖示旁顯示「×」標誌</string>
     <!-- Lockscreen categories -->
     <string name="lockscreen_interface_category">介面</string>
     <!-- Lockscreen battery info indicator -->
@@ -362,14 +356,8 @@
     <string name="status_bar_clock_position_right">右側</string>
     <string name="status_bar_clock_position_left">左側</string>
     <string name="status_bar_clock_position_center">置中</string>
-    <string name="status_bar_clock_position_hidden">隱藏</string>
     <string name="status_bar_clock_auto_hide_title">自動隱藏</string>
-    <string name="status_bar_clock_auto_hide_launcher_summary">在主畫面時自動隱藏時鐘</string>
-    <string name="status_bar_clock_auto_hide_summary">在一段時間後自動隱藏時鐘</string>
-    <string name="status_bar_clock_auto_hide_hdur_title">隱藏持續時間</string>
-    <string name="status_bar_clock_auto_hide_hdur_summary">時鐘隱藏的持續秒數</string>
-    <string name="status_bar_clock_auto_hide_sdur_title">持續顯示時間</string>
-    <string name="status_bar_clock_auto_hide_sdur_summary">時鐘隱藏之前等待的秒數</string>
+    <string name="status_bar_clock_auto_hide_summary">在主畫面時自動隱藏時鐘</string>
     <string name="status_bar_am_pm_title">上午／下午樣式</string>
     <string name="status_bar_am_pm_info">24 小時制時鐘已啟用</string>
     <string name="status_bar_am_pm_normal">正常</string>
@@ -390,7 +378,6 @@
     <string name="clock_date_position">日期位置</string>
     <string name="clock_date_right">位於時間右側</string>
     <string name="clock_date_left">位於時間左側</string>
-    <string name="clock_font_size_title">時鐘字體大小</string>
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">電池圖示樣式</string>
     <string name="status_bar_battery_style_icon_portrait">直式圖示</string>
@@ -404,6 +391,7 @@
     <string name="status_bar_battery_percent_title">電量百分比</string>
     <string name="status_bar_battery_percent_hidden">隱藏</string>
     <string name="status_bar_battery_percent_text_inside">在圖標裡面</string>
+    <string name="status_bar_battery_percent_text_next">在圖示旁</string>
     <string name="status_bar_battery_percent_text_next_right">在圖示右側</string>
     <string name="status_bar_battery_percent_text_next_left">在圖示左側</string>
     <string name="status_bar_battery_text_charging_title">充電時顯示電量百分比</string>
@@ -529,7 +517,7 @@
     <!-- Brightness slider / QS tile haptic feedback -->
     <string name="qs_brightness_slider_haptic_title">震動回饋</string>
     <string name="qs_brightness_slider_haptic_summary">調整亮度控制條時，提供震動回饋</string>
-    <string name="qs_tile_haptic_summary">Provide haptic feedback on tapping QS tiles</string>
+    <string name="qs_tile_haptic_summary">點擊 QS 方塊時提供觸覺回饋</string>
     <!-- Quick Settings brightness icon -->
     <string name="qs_show_auto_brightness_title">自動亮度圖示</string>
     <string name="qs_show_auto_brightness_summary">在亮度控制條旁顯示自動調節亮度開關</string>
@@ -638,9 +626,6 @@
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">波紋效果</string>
     <string name="enable_fingerprint_ripple_effect_summary">以指紋解鎖時顯示波紋效果</string>
-    <!-- Old mobiletype icon style -->
-    <string name="old_mobiletype_title">舊式的訊號圖示</string>
-    <string name="old_mobiletype_summary">合併訊號強度和訊號類型圖示</string>
     <!-- Screen Off animation -->
     <string name="screen_off_animation_title">螢幕關閉動畫</string>
     <string name="screen_off_animation_default">預設</string>
@@ -995,13 +980,6 @@
     <string name="qs_header_offset_title">頂部圖像位移</string>
     <string name="qs_header_offset_summary">調整頂部圖像大小</string>
     <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
-    <!-- Volume Steps -->
-    <string name="volume_steps_title">音量級別</string>
-    <string name="volume_steps_summary">控制個別應用的音量級別</string>
-    <string name="max_music_volume_title">媒體</string>
-    <string name="max_call_volume_title">電話</string>
-    <string name="max_alarm_volume_title">鬧鐘</string>
-    <string name="steps_unit">級別</string>
     <!-- AOD Schedule -->
     <string name="always_on_display_schedule_title">顯示排程</string>
     <string name="always_on_display_schedule_summary">設定 AOD 排程</string>
@@ -1102,8 +1080,8 @@
     <!-- Brightness Slider Style -->
     <string name="qs_brightness_slider_shape_title">亮度滑桿形狀</string>
     <!-- Force LTE_CA -->
-    <string name="force_lte_ca">強制啟用 LTE CA</string>
-    <string name="force_lte_ca_summary">強制啟用 LTE 載波聚合</string>
+    <string name="force_lte_ca_title">LTE 供應商聚合</string>
+    <string name="force_lte_ca_summary">透過聚合支援的頻段來增強 LTE 頻寬</string>
     <!-- QS on lockscreen -->
     <string name="lockscreen_quick_settings_title">在鎖定畫面介面下滑以查看快速設定面板</string>
     <string name="lockscreen_quick_settings_summary">允許在鎖定畫面向下滑動以查看快速設定</string>
@@ -1149,6 +1127,7 @@
     <string name="pulse_renderer_retro_vu_meter">復古指針儀表</string>
     <string name="pulse_renderer_minimal_wave">極簡波浪</string>
     <string name="pulse_renderer_sparkle">閃爍</string>
+    <string name="pulse_renderer_matrix">矩陣</string>
     <!-- Notification Row -->
     <string name="notification_row_transparency_title">半透明通知</string>
     <string name="notification_row_transparency_summary">快速設定通知的半透明背景</string>
@@ -1163,4 +1142,8 @@
     <!-- Vbmeta hash attestation -->
     <string name="vbmeta_attestation_title">自動修復 VBMeta 檢測</string>
     <string name="vbmeta_attestation_summary">啟動時執行金鑰認證以產生已驗證的啟動雜湊值。需要重啟系統。</string>
+    <!-- Menu option for not validating the EAP server -->
+    <string name="wifi_do_not_validate_eap_server">不進行驗證</string>
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <string name="wifi_do_not_validate_eap_server_warning">您未指定任何憑證，因此無法為您設定私人連線。</string>
 </resources>

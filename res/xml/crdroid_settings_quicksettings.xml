@@ -58,23 +58,23 @@
             android:summary="@string/qs_date_summary"
             android:defaultValue="true" /> -->
 
-        <!-- Battery styles -->
+        <!-- Battery styles
         <com.crdroid.settings.preferences.SystemSettingListPreference
             android:key="qs_battery_style"
             android:icon="@drawable/ic_battery"
             android:title="@string/status_bar_battery_style_title"
             android:entries="@array/qs_battery_style_entries"
             android:entryValues="@array/qs_battery_style_values"
-            android:defaultValue="-1" />
+            android:defaultValue="-1" /> -->
 
-        <!-- Battery percent -->
+        <!-- Battery percent
         <com.crdroid.settings.preferences.SystemSettingListPreference
             android:key="qs_show_battery_percent"
             android:icon="@drawable/ic_battery_alert"
             android:title="@string/status_bar_battery_percent_title"
             android:entries="@array/status_bar_battery_percent_entries"
             android:entryValues="@array/status_bar_battery_percent_values"
-            android:defaultValue="2" />
+            android:defaultValue="2" /> -->
 
         <!-- Battery estimate
         <com.crdroid.settings.preferences.SystemSettingSwitchPreference
@@ -143,7 +143,8 @@
             android:key="qs_brightness_slider_haptic"
             android:icon="@drawable/ic_brightness"
             android:title="@string/qs_brightness_slider_haptic_title"
-            android:summary="@string/qs_brightness_slider_haptic_summary" />
+            android:summary="@string/qs_brightness_slider_haptic_summary"
+            android:defaultValue="true" />
 
         <lineageos.preference.LineageSecureSettingSwitchPreference
             android:key="qs_show_auto_brightness"
@@ -194,7 +195,8 @@
             android:key="qs_tile_haptic"
             android:icon="@drawable/ic_brightness"
             android:title="@string/qs_brightness_slider_haptic_title"
-            android:summary="@string/qs_tile_haptic_summary" />
+            android:summary="@string/qs_tile_haptic_summary"
+            android:defaultValue="true" />
 
     </PreferenceCategory>
 

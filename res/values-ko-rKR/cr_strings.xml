@@ -90,7 +90,7 @@
     <string name="crdroid_donate_message">crDroid 안드로이드는 오픈소스 프로젝트이기 때문에 웹사이트를 유지하고, 서버를 운영해 높은 품질의 빌드를 단말기에 제공하는데 당신의 도움이 필요합니다. \n\n
 작은 도네이션도 이 프로젝트가 계속 운영되고 발전하는데 도움이 됩니다. 이 메시지를 꺼도 되지만, 당신의 지원은 우리에게 큰 도움이 됩니다.</string>
     <string name="crdroid_donate_button">지금 기부하기</string>
-    <string name="crdroid_later_button">나중에 하기</string>
+    <string name="crdroid_later_button">Maybe next month</string>
     <string name="crdroid_channel_name">crDroid 알림</string>
     <string name="crdroid_channel_desc">프로젝트 관련 알림</string>
     <string name="crdroid_donate_still_needed">이번달에 €%,d만큼 필요합니다. 목표를 달성할 수 있도록 도와주세요.</string>
@@ -121,12 +121,6 @@
     <string name="status_bar_battery_category_title">배터리 사용자 정의</string>
     <!-- Gestures -->
     <string name="gestures_title">제스처</string>
-    <!-- 4G icon -->
-    <string name="show_fourg_icon_title">4G 아이콘</string>
-    <string name="show_fourg_icon_summary">LTE 아이콘 대신 4G 아이콘 표시</string>
-    <!-- Data disabled indicator -->
-    <string name="data_disabled_icon_title">모바일 데이터 상태 표시</string>
-    <string name="data_disabled_icon_summary">신호 아이콘 옆에 모바일 데이터 켜짐/꺼짐 상태 표시</string>
     <!-- Lockscreen categories -->
     <string name="lockscreen_interface_category">인터페이스</string>
     <!-- Lockscreen battery info indicator -->
@@ -363,14 +357,8 @@
     <string name="status_bar_clock_position_right">오른쪽</string>
     <string name="status_bar_clock_position_left">왼쪽</string>
     <string name="status_bar_clock_position_center">가운데</string>
-    <string name="status_bar_clock_position_hidden">숨김</string>
     <string name="status_bar_clock_auto_hide_title">자동 숨김</string>
-    <string name="status_bar_clock_auto_hide_launcher_summary">홈 화면에 있을 때 시계 숨기기</string>
-    <string name="status_bar_clock_auto_hide_summary">일정 시간 뒤에 시계 숨기기</string>
-    <string name="status_bar_clock_auto_hide_hdur_title">시간 제한</string>
-    <string name="status_bar_clock_auto_hide_hdur_summary">시계를 숨기기까지 기다릴 시간 설정</string>
-    <string name="status_bar_clock_auto_hide_sdur_title">표시 기간</string>
-    <string name="status_bar_clock_auto_hide_sdur_summary">시계를 숨기기 전에 기다릴 시간 설정</string>
+    <string name="status_bar_clock_auto_hide_summary">홈 화면에 있을 때 시계 숨기기</string>
     <string name="status_bar_am_pm_title">오전/오후 스타일</string>
     <string name="status_bar_am_pm_info">24시간 형식 사용 중</string>
     <string name="status_bar_am_pm_normal">기본</string>
@@ -391,7 +379,6 @@
     <string name="clock_date_position">날짜 위치</string>
     <string name="clock_date_right">시간 오른편</string>
     <string name="clock_date_left">시간 왼편</string>
-    <string name="clock_font_size_title">시계 글꼴 크기</string>
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">배터리 스타일</string>
     <string name="status_bar_battery_style_icon_portrait">세로 아이콘</string>
@@ -405,6 +392,7 @@
     <string name="status_bar_battery_percent_title">배터리 백분율</string>
     <string name="status_bar_battery_percent_hidden">숨김</string>
     <string name="status_bar_battery_percent_text_inside">아이콘 안</string>
+    <string name="status_bar_battery_percent_text_next">Next to the icon</string>
     <string name="status_bar_battery_percent_text_next_right">아이콘 오른편</string>
     <string name="status_bar_battery_percent_text_next_left">아이콘 왼편</string>
     <string name="status_bar_battery_text_charging_title">충전 중일 때 표시</string>
@@ -639,9 +627,6 @@
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">물방울 효과</string>
     <string name="enable_fingerprint_ripple_effect_summary">지문으로 잠금 해제 시 물방울 효과 표시</string>
-    <!-- Old mobiletype icon style -->
-    <string name="old_mobiletype_title">이전 스타일 신호 아이콘</string>
-    <string name="old_mobiletype_summary">신호 및 신호 유형 아이콘 합치기</string>
     <!-- Screen Off animation -->
     <string name="screen_off_animation_title">화면 꺼짐 애니메이션</string>
     <string name="screen_off_animation_default">기본값</string>
@@ -996,13 +981,6 @@
     <string name="qs_header_offset_title">헤더 이미지 위치</string>
     <string name="qs_header_offset_summary">이미지 헤더 크기 조정</string>
     <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
-    <!-- Volume Steps -->
-    <string name="volume_steps_title">볼륨 조절 단계</string>
-    <string name="volume_steps_summary">각 볼륨을 총 몇 단계로 나누어 조절할 것인지 설정</string>
-    <string name="max_music_volume_title">미디어</string>
-    <string name="max_call_volume_title">통화</string>
-    <string name="max_alarm_volume_title">알람</string>
-    <string name="steps_unit">단계</string>
     <!-- AOD Schedule -->
     <string name="always_on_display_schedule_title">표시 일정</string>
     <string name="always_on_display_schedule_summary">AOD를 사용할 일정 지정</string>
@@ -1103,8 +1081,8 @@
     <!-- Brightness Slider Style -->
     <string name="qs_brightness_slider_shape_title">Brightness slider shape</string>
     <!-- Force LTE_CA -->
-    <string name="force_lte_ca">Force LTE CA</string>
-    <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
+    <string name="force_lte_ca_title">LTE carrier aggregation</string>
+    <string name="force_lte_ca_summary">Enhances LTE bandwidth by aggregating supported bands</string>
     <!-- QS on lockscreen -->
     <string name="lockscreen_quick_settings_title">QS on lock screen</string>
     <string name="lockscreen_quick_settings_summary">Allow swipe down on lock screen to view Quick Settings</string>
@@ -1150,6 +1128,7 @@
     <string name="pulse_renderer_retro_vu_meter">Retro VU meter</string>
     <string name="pulse_renderer_minimal_wave">Minimal wave</string>
     <string name="pulse_renderer_sparkle">Sparkle</string>
+    <string name="pulse_renderer_matrix">Matrix</string>
     <!-- Notification Row -->
     <string name="notification_row_transparency_title">Translucent notifications</string>
     <string name="notification_row_transparency_summary">Set translucent background for notifications in QS</string>
@@ -1164,4 +1143,8 @@
     <!-- Vbmeta hash attestation -->
     <string name="vbmeta_attestation_title">Autofix VBMeta detection</string>
     <string name="vbmeta_attestation_summary">Perform key attestation to generate verified boot hash on boot. Requires system restart.</string>
+    <!-- Menu option for not validating the EAP server -->
+    <string name="wifi_do_not_validate_eap_server">Do not validate</string>
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <string name="wifi_do_not_validate_eap_server_warning">No certificate specified. Your connection will not be private.</string>
 </resources>

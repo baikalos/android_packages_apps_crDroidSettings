@@ -90,7 +90,7 @@
     <string name="crdroid_donate_message">crDroid Android є проектом з відкритим вихідним кодом, який потребує вашої допомоги, щоб зберігати веб-сайт. наші сервери збірки запущені та забезпечують якісні збірки для вашого пристрою.\n\n
 Невелика пожертва допомагає зберегти цей проект живим та поліпшити. Ви можете звільнити це повідомлення, але ваша підтримка багато для нас значить.</string>
     <string name="crdroid_donate_button">Пожертвувати зараз</string>
-    <string name="crdroid_later_button">Можливо пізніше</string>
+    <string name="crdroid_later_button">Можливо наступного місяця</string>
     <string name="crdroid_channel_name">crDroid сповіщення</string>
     <string name="crdroid_channel_desc">Конкретні сповіщення в проєкті</string>
     <string name="crdroid_donate_still_needed">Нам все ще потрібно €%,d у цьому місяці. Допоможіть нам досягти поставленої мети.</string>
@@ -121,12 +121,6 @@
     <string name="status_bar_battery_category_title">Кастомізація батареї</string>
     <!-- Gestures -->
     <string name="gestures_title">Жести</string>
-    <!-- 4G icon -->
-    <string name="show_fourg_icon_title">Піктограма 4G</string>
-    <string name="show_fourg_icon_summary">Показувати піктограму 4G замість LTE в рядку стану</string>
-    <!-- Data disabled indicator -->
-    <string name="data_disabled_icon_title">Індикатор вимкнених мобільних даних</string>
-    <string name="data_disabled_icon_summary">Відображати індикатор поруч з іконкою сигналу, коли дані вимкнуто</string>
     <!-- Lockscreen categories -->
     <string name="lockscreen_interface_category">Інтерфейс</string>
     <!-- Lockscreen battery info indicator -->
@@ -366,14 +360,8 @@
     <string name="status_bar_clock_position_right">Праворуч</string>
     <string name="status_bar_clock_position_left">Ліворуч</string>
     <string name="status_bar_clock_position_center">Центр</string>
-    <string name="status_bar_clock_position_hidden">Приховано</string>
     <string name="status_bar_clock_auto_hide_title">Приховувати автоматично</string>
-    <string name="status_bar_clock_auto_hide_launcher_summary">Приховати годинник, якщо панель запуску видима</string>
-    <string name="status_bar_clock_auto_hide_summary">Приховувати годинник через регулярні проміжки часу</string>
-    <string name="status_bar_clock_auto_hide_hdur_title">Приховати тривалість</string>
-    <string name="status_bar_clock_auto_hide_hdur_summary">Кількість секунд до приховання годинника</string>
-    <string name="status_bar_clock_auto_hide_sdur_title">Показати тривалість</string>
-    <string name="status_bar_clock_auto_hide_sdur_summary">Кількість секунд очікування до приховання годинника</string>
+    <string name="status_bar_clock_auto_hide_summary">Приховати годинник, якщо панель запуску видима</string>
     <string name="status_bar_am_pm_title">Стиль AM/PM</string>
     <string name="status_bar_am_pm_info">24-годинний формат часу</string>
     <string name="status_bar_am_pm_normal">Нормальний</string>
@@ -394,7 +382,6 @@
     <string name="clock_date_position">Розташування дати</string>
     <string name="clock_date_right">Праворуч від часу</string>
     <string name="clock_date_left">Ліворуч від часу</string>
-    <string name="clock_font_size_title">Розмір шрифту годинника</string>
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">Стиль батареї</string>
     <string name="status_bar_battery_style_icon_portrait">Вертикальний значок</string>
@@ -408,6 +395,7 @@
     <string name="status_bar_battery_percent_title">Відсоток заряду</string>
     <string name="status_bar_battery_percent_hidden">Прихований</string>
     <string name="status_bar_battery_percent_text_inside">Всередині іконки</string>
+    <string name="status_bar_battery_percent_text_next">Поруч з іконкою</string>
     <string name="status_bar_battery_percent_text_next_right">Поруч із значком (праворуч)</string>
     <string name="status_bar_battery_percent_text_next_left">Поруч з піктограмою (ліворуч)</string>
     <string name="status_bar_battery_text_charging_title">Відсотки заряду акумулятора під час заряджання</string>
@@ -533,7 +521,7 @@
     <!-- Brightness slider / QS tile haptic feedback -->
     <string name="qs_brightness_slider_haptic_title">Тактильний зворотний зв\'язок</string>
     <string name="qs_brightness_slider_haptic_summary">Надати тактильний відгук на зміну яскравості за допомогою повзунка</string>
-    <string name="qs_tile_haptic_summary">Надати тактильний зворотній зв\'язок при натисканні плиток швидких налаштувань</string>
+    <string name="qs_tile_haptic_summary">Надати тактильний відгук при натисканні плиток швидких налаштувань</string>
     <!-- Quick Settings brightness icon -->
     <string name="qs_show_auto_brightness_title">Значок автоматичної яскравості</string>
     <string name="qs_show_auto_brightness_summary">Показати перемикач адаптивної яскравості поряд з повзунком</string>
@@ -642,9 +630,6 @@
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">Ефект пульсації</string>
     <string name="enable_fingerprint_ripple_effect_summary">Відображати ефекти на екрані під час розблокування відбитком</string>
-    <!-- Old mobiletype icon style -->
-    <string name="old_mobiletype_title">Іконка мережі в старому стилі</string>
-    <string name="old_mobiletype_summary">Об\'єднати значки сигналу і типу мережі</string>
     <!-- Screen Off animation -->
     <string name="screen_off_animation_title">Анімація вимкнення екрану</string>
     <string name="screen_off_animation_default">За замовчуванням</string>
@@ -1005,13 +990,6 @@
     <string name="qs_header_offset_title">Зміщення зображення заголовка</string>
     <string name="qs_header_offset_summary">Налаштувати розмір заголовка зображення</string>
     <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
-    <!-- Volume Steps -->
-    <string name="volume_steps_title">Рівні гучності</string>
-    <string name="volume_steps_summary">Контролюйте деталізацію кожного потоку</string>
-    <string name="max_music_volume_title">Медіа</string>
-    <string name="max_call_volume_title">Дзвінки</string>
-    <string name="max_alarm_volume_title">Будильники</string>
-    <string name="steps_unit">кроків</string>
     <!-- AOD Schedule -->
     <string name="always_on_display_schedule_title">Показувати розклад</string>
     <string name="always_on_display_schedule_summary">Встановити розклад для завжди ввімкненого екрану</string>
@@ -1112,8 +1090,8 @@
     <!-- Brightness Slider Style -->
     <string name="qs_brightness_slider_shape_title">Форма повзунка яскравості</string>
     <!-- Force LTE_CA -->
-    <string name="force_lte_ca">Увімкнути CA LTE</string>
-    <string name="force_lte_ca_summary">Примусово застосовувати агрегацію операторів LTE</string>
+    <string name="force_lte_ca_title">Агрегація операторів LTE</string>
+    <string name="force_lte_ca_summary">Покращує пропускну здатність LTE шляхом агрегування підтримуваних діапазонів</string>
     <!-- QS on lockscreen -->
     <string name="lockscreen_quick_settings_title">QS на екрані блокування</string>
     <string name="lockscreen_quick_settings_summary">Проведіть вниз на екрані блокування для перегляду швидких налаштувань</string>
@@ -1159,6 +1137,7 @@
     <string name="pulse_renderer_retro_vu_meter">Ретро VU метр</string>
     <string name="pulse_renderer_minimal_wave">Мінімальна хвиля</string>
     <string name="pulse_renderer_sparkle">Іскра</string>
+    <string name="pulse_renderer_matrix">Матриця</string>
     <!-- Notification Row -->
     <string name="notification_row_transparency_title">Прозорі сповіщення</string>
     <string name="notification_row_transparency_summary">Показувати сповіщення про напівпрозорі налаштування швидкого доступу</string>
@@ -1168,9 +1147,13 @@
     <string name="doze_always_on_wallpaper_title">Тло на Ambient Display</string>
     <string name="doze_always_on_wallpaper_summary">Показувати шпалери екрану блокування на Ambient Display</string>
     <!-- Squiggle animation for media notification -->
-    <string name="media_squiggle_animation_title">Анімація Squiggle</string>
+    <string name="media_squiggle_animation_title">Анімація хвилястих ліній</string>
     <string name="media_squiggle_animation_summary">Показувати анімацію перемотки екрану при відтворенні медіа</string>
     <!-- Vbmeta hash attestation -->
     <string name="vbmeta_attestation_title">Автовиправлення розпізнавання VBMeta</string>
     <string name="vbmeta_attestation_summary">Виконайте хеш ключа при завантаженні щоб генерувати перевірений хеш. Для запуску необхідно перезапустити систему.</string>
+    <!-- Menu option for not validating the EAP server -->
+    <string name="wifi_do_not_validate_eap_server">Не перевіряти</string>
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <string name="wifi_do_not_validate_eap_server_warning">Сертифікат не вказано. Ваше з’єднання не буде конфіденційним.</string>
 </resources>

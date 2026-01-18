@@ -91,7 +91,7 @@
 \n\n
 少しの寄付でもこのプロジェクトを維持し改善し続けるための大きな力となります。このメッセージを無視しても構いませんが皆様の支援は私たちにとって大変重要です。</string>
     <string name="crdroid_donate_button">今すぐ寄付をする</string>
-    <string name="crdroid_later_button">また後で</string>
+    <string name="crdroid_later_button">Maybe next month</string>
     <string name="crdroid_channel_name">crDroidの通知</string>
     <string name="crdroid_channel_desc">プロジェクトの通知</string>
     <string name="crdroid_donate_still_needed">今月はあと€%,dが必要です。私たちの目標に到達する手助けをして下さい。</string>
@@ -122,12 +122,6 @@
     <string name="status_bar_battery_category_title">バッテリー表示</string>
     <!-- Gestures -->
     <string name="gestures_title">ジェスチャー</string>
-    <!-- 4G icon -->
-    <string name="show_fourg_icon_title">4G アイコン</string>
-    <string name="show_fourg_icon_summary">LTE の代わりに 4G アイコンを表示します</string>
-    <!-- Data disabled indicator -->
-    <string name="data_disabled_icon_title">データ通信無効の表示</string>
-    <string name="data_disabled_icon_summary">データ通信が無効な時、電波アイコンの隣にインジケーターを表示します</string>
     <!-- Lockscreen categories -->
     <string name="lockscreen_interface_category">インターフェース</string>
     <!-- Lockscreen battery info indicator -->
@@ -364,14 +358,8 @@
     <string name="status_bar_clock_position_right">右</string>
     <string name="status_bar_clock_position_left">左</string>
     <string name="status_bar_clock_position_center">中央</string>
-    <string name="status_bar_clock_position_hidden">非表示</string>
     <string name="status_bar_clock_auto_hide_title">自動的に隠す</string>
-    <string name="status_bar_clock_auto_hide_launcher_summary">ホームアプリを表示しているときは時計を隠します</string>
-    <string name="status_bar_clock_auto_hide_summary">一定間隔で時計を隠します</string>
-    <string name="status_bar_clock_auto_hide_hdur_title">非表示にするまでの時間</string>
-    <string name="status_bar_clock_auto_hide_hdur_summary">時計を非表示にする秒数を指定します</string>
-    <string name="status_bar_clock_auto_hide_sdur_title">表示する時間</string>
-    <string name="status_bar_clock_auto_hide_sdur_summary">時計を非表示にするまでの待ち時間を指定します</string>
+    <string name="status_bar_clock_auto_hide_summary">ホームアプリを表示しているときは時計を隠します</string>
     <string name="status_bar_am_pm_title">AM / PM のスタイル</string>
     <string name="status_bar_am_pm_info">24時間表示が有効です</string>
     <string name="status_bar_am_pm_normal">標準</string>
@@ -392,7 +380,6 @@
     <string name="clock_date_position">日付の位置</string>
     <string name="clock_date_right">時刻の右</string>
     <string name="clock_date_left">時刻の左</string>
-    <string name="clock_font_size_title">時計のフォントサイズ</string>
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">バッテリースタイル</string>
     <string name="status_bar_battery_style_icon_portrait">縦向きのアイコン</string>
@@ -406,6 +393,7 @@
     <string name="status_bar_battery_percent_title">バッテリーパーセント表示</string>
     <string name="status_bar_battery_percent_hidden">非表示</string>
     <string name="status_bar_battery_percent_text_inside">アイコンの内側</string>
+    <string name="status_bar_battery_percent_text_next">アイコンの隣</string>
     <string name="status_bar_battery_percent_text_next_right">アイコンの隣（右）</string>
     <string name="status_bar_battery_percent_text_next_left">アイコンの隣（左）</string>
     <string name="status_bar_battery_text_charging_title">充電中のバッテリーパーセント</string>
@@ -640,9 +628,6 @@
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">波紋エフェクト</string>
     <string name="enable_fingerprint_ripple_effect_summary">指紋認証でのロック解除時に波紋エフェクトを表示します</string>
-    <!-- Old mobiletype icon style -->
-    <string name="old_mobiletype_title">旧スタイルのアンテナピクト</string>
-    <string name="old_mobiletype_summary">アンテナピクトと種別のアイコンを統合します</string>
     <!-- Screen Off animation -->
     <string name="screen_off_animation_title">画面消灯時のアニメーション</string>
     <string name="screen_off_animation_default">デフォルト</string>
@@ -997,13 +982,6 @@
     <string name="qs_header_offset_title">ヘッダー画像オフセット</string>
     <string name="qs_header_offset_summary">ヘッダー画像のサイズを調整します</string>
     <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
-    <!-- Volume Steps -->
-    <string name="volume_steps_title">音量の段階</string>
-    <string name="volume_steps_summary">各ストリームの音量段階数を変更します</string>
-    <string name="max_music_volume_title">メディア</string>
-    <string name="max_call_volume_title">通話</string>
-    <string name="max_alarm_volume_title">アラーム</string>
-    <string name="steps_unit">段階</string>
     <!-- AOD Schedule -->
     <string name="always_on_display_schedule_title">表示スケジュール</string>
     <string name="always_on_display_schedule_summary">常時表示ディスプレイを指定した期間に有効化します</string>
@@ -1104,8 +1082,8 @@
     <!-- Brightness Slider Style -->
     <string name="qs_brightness_slider_shape_title">Brightness slider shape</string>
     <!-- Force LTE_CA -->
-    <string name="force_lte_ca">LTE CA を強制</string>
-    <string name="force_lte_ca_summary">LTE キャリアアグリゲーションを強制的に動作させます</string>
+    <string name="force_lte_ca_title">LTE carrier aggregation</string>
+    <string name="force_lte_ca_summary">Enhances LTE bandwidth by aggregating supported bands</string>
     <!-- QS on lockscreen -->
     <string name="lockscreen_quick_settings_title">QS on lock screen</string>
     <string name="lockscreen_quick_settings_summary">Allow swipe down on lock screen to view Quick Settings</string>
@@ -1151,6 +1129,7 @@
     <string name="pulse_renderer_retro_vu_meter">Retro VU meter</string>
     <string name="pulse_renderer_minimal_wave">Minimal wave</string>
     <string name="pulse_renderer_sparkle">Sparkle</string>
+    <string name="pulse_renderer_matrix">Matrix</string>
     <!-- Notification Row -->
     <string name="notification_row_transparency_title">Translucent notifications</string>
     <string name="notification_row_transparency_summary">Set translucent background for notifications in QS</string>
@@ -1165,4 +1144,8 @@
     <!-- Vbmeta hash attestation -->
     <string name="vbmeta_attestation_title">Autofix VBMeta detection</string>
     <string name="vbmeta_attestation_summary">Perform key attestation to generate verified boot hash on boot. Requires system restart.</string>
+    <!-- Menu option for not validating the EAP server -->
+    <string name="wifi_do_not_validate_eap_server">Do not validate</string>
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <string name="wifi_do_not_validate_eap_server_warning">No certificate specified. Your connection will not be private.</string>
 </resources>

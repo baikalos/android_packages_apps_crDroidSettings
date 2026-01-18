@@ -90,7 +90,7 @@
     <string name="crdroid_donate_message">crDroid Android is an open-source project which needs your help to keep website online, our build servers running, and to deliver high-quality builds for your device.\n\n
 A small donation helps keep this project alive and improving. You can dismiss this message, but your support means a lot to us.</string>
     <string name="crdroid_donate_button">Donate now</string>
-    <string name="crdroid_later_button">Maybe later</string>
+    <string name="crdroid_later_button">Maybe next month</string>
     <string name="crdroid_channel_name">crDroid notifications</string>
     <string name="crdroid_channel_desc">Project specific notifications</string>
     <string name="crdroid_donate_still_needed">We still need €%,d this month. Help us reach our goal.</string>
@@ -121,12 +121,6 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <string name="status_bar_battery_category_title">Personalització de la bateria</string>
     <!-- Gestures -->
     <string name="gestures_title">Gestos</string>
-    <!-- 4G icon -->
-    <string name="show_fourg_icon_title">Icona 4G</string>
-    <string name="show_fourg_icon_summary">Mostra la icona de 4G en la icona de senyal en lloc d\'LTE</string>
-    <!-- Data disabled indicator -->
-    <string name="data_disabled_icon_title">Indicador de dades desactivades</string>
-    <string name="data_disabled_icon_summary">Mostra una creu al costat de la icona de senyal quan les dades estan desactivades</string>
     <!-- Lockscreen categories -->
     <string name="lockscreen_interface_category">Interfície</string>
     <!-- Lockscreen battery info indicator -->
@@ -364,14 +358,8 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <string name="status_bar_clock_position_right">Dreta</string>
     <string name="status_bar_clock_position_left">Esquerra</string>
     <string name="status_bar_clock_position_center">Centrat</string>
-    <string name="status_bar_clock_position_hidden">Amagat</string>
     <string name="status_bar_clock_auto_hide_title">Oculta automàticament</string>
-    <string name="status_bar_clock_auto_hide_launcher_summary">Oculta el rellotge si la pantalla d\'inici és visible</string>
-    <string name="status_bar_clock_auto_hide_summary">Oculta el rellotge a intervals regulars</string>
-    <string name="status_bar_clock_auto_hide_hdur_title">Oculta la duració</string>
-    <string name="status_bar_clock_auto_hide_hdur_summary">Segons per a amagar el rellotge</string>
-    <string name="status_bar_clock_auto_hide_sdur_title">Mostra la durada</string>
-    <string name="status_bar_clock_auto_hide_sdur_summary">Temps d\'espera abans d\'amagar el rellotge</string>
+    <string name="status_bar_clock_auto_hide_summary">Oculta el rellotge si la pantalla d\'inici és visible</string>
     <string name="status_bar_am_pm_title">Format AM/PM</string>
     <string name="status_bar_am_pm_info">El format de 24 hores està activat</string>
     <string name="status_bar_am_pm_normal">Normal</string>
@@ -392,7 +380,6 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <string name="clock_date_position">Posició de la data</string>
     <string name="clock_date_right">A la dreta de l\'hora</string>
     <string name="clock_date_left">A la esquerra de l\'hora</string>
-    <string name="clock_font_size_title">Mida de la lletra del rellotge</string>
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">Estil de la bateria</string>
     <string name="status_bar_battery_style_icon_portrait">Icona vertical</string>
@@ -406,6 +393,7 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <string name="status_bar_battery_percent_title">Percentatge de bateria</string>
     <string name="status_bar_battery_percent_hidden">Ocult</string>
     <string name="status_bar_battery_percent_text_inside">Dins la icona</string>
+    <string name="status_bar_battery_percent_text_next">Next to the icon</string>
     <string name="status_bar_battery_percent_text_next_right">Al costat de la icona (dreta)</string>
     <string name="status_bar_battery_percent_text_next_left">Al costat de la icona (esquerra)</string>
     <string name="status_bar_battery_text_charging_title">Percentatge de la bateria mentre carrega</string>
@@ -640,9 +628,6 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">Efecte al desbloquejar</string>
     <string name="enable_fingerprint_ripple_effect_summary">Mostra l\'efecte al desbloquejar amb empremta digital</string>
-    <!-- Old mobiletype icon style -->
-    <string name="old_mobiletype_title">Icona de senyal d\'estil antic</string>
-    <string name="old_mobiletype_summary">Combina les icones de senyal i tipus de senyal</string>
     <!-- Screen Off animation -->
     <string name="screen_off_animation_title">Animació d\'apagat de la pantalla</string>
     <string name="screen_off_animation_default">Per defecte</string>
@@ -999,13 +984,6 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <string name="qs_header_offset_title">Header image offset</string>
     <string name="qs_header_offset_summary">Adjust the image header size</string>
     <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
-    <!-- Volume Steps -->
-    <string name="volume_steps_title">Volume Steps</string>
-    <string name="volume_steps_summary">Control the granularity of each stream</string>
-    <string name="max_music_volume_title">Media</string>
-    <string name="max_call_volume_title">Telefonades</string>
-    <string name="max_alarm_volume_title">Alarmes</string>
-    <string name="steps_unit">steps</string>
     <!-- AOD Schedule -->
     <string name="always_on_display_schedule_title">Display schedule</string>
     <string name="always_on_display_schedule_summary">Set schedule for always on display</string>
@@ -1106,8 +1084,8 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <!-- Brightness Slider Style -->
     <string name="qs_brightness_slider_shape_title">Brightness slider shape</string>
     <!-- Force LTE_CA -->
-    <string name="force_lte_ca">Force LTE CA</string>
-    <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
+    <string name="force_lte_ca_title">LTE carrier aggregation</string>
+    <string name="force_lte_ca_summary">Enhances LTE bandwidth by aggregating supported bands</string>
     <!-- QS on lockscreen -->
     <string name="lockscreen_quick_settings_title">QS on lock screen</string>
     <string name="lockscreen_quick_settings_summary">Allow swipe down on lock screen to view Quick Settings</string>
@@ -1153,6 +1131,7 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <string name="pulse_renderer_retro_vu_meter">Retro VU meter</string>
     <string name="pulse_renderer_minimal_wave">Minimal wave</string>
     <string name="pulse_renderer_sparkle">Sparkle</string>
+    <string name="pulse_renderer_matrix">Matrix</string>
     <!-- Notification Row -->
     <string name="notification_row_transparency_title">Translucent notifications</string>
     <string name="notification_row_transparency_summary">Set translucent background for notifications in QS</string>
@@ -1167,4 +1146,8 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <!-- Vbmeta hash attestation -->
     <string name="vbmeta_attestation_title">Autofix VBMeta detection</string>
     <string name="vbmeta_attestation_summary">Perform key attestation to generate verified boot hash on boot. Requires system restart.</string>
+    <!-- Menu option for not validating the EAP server -->
+    <string name="wifi_do_not_validate_eap_server">Do not validate</string>
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <string name="wifi_do_not_validate_eap_server_warning">No certificate specified. Your connection will not be private.</string>
 </resources>

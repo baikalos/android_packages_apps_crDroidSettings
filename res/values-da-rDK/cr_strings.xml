@@ -41,7 +41,7 @@
     <string name="reset">Nulstil</string>
     <string name="cancel">Annullér</string>
     <string name="save">Gem</string>
-    <string name="discard_changes">Discard changes</string>
+    <string name="discard_changes">Fortryd ændringer</string>
     <string name="never">Aldrig</string>
     <string name="always">Altid</string>
     <string name="caution">Bemærk</string>
@@ -49,13 +49,13 @@
     <string name="delete_message">Fjern valgte element?</string>
     <string name="choose_app">Vælg app</string>
     <string name="enable">Aktivér</string>
-    <string name="disable">Disable</string>
-    <string name="accent_color">Accent color (Default)</string>
-    <string name="notification_color">Notification color</string>
-    <string name="wallpaper_color">Wallpaper color</string>
+    <string name="disable">Deaktivér</string>
+    <string name="accent_color">Accent farve (standard)</string>
+    <string name="notification_color">Notifikationsfarve</string>
+    <string name="wallpaper_color">Tapet farver</string>
     <string name="rainbow_color">Rainbow color</string>
     <string name="custom_color">Tilpasset farve</string>
-    <string name="restart_systemui">Restart SystemUI for change to take effect!</string>
+    <string name="restart_systemui">Genstart SystemUI for ændring til at træde i kraft!</string>
     <string name="default_value">Standard</string>
     <!-- Changelog -->
     <string name="changelog_crdroid_title">Aktuel ændringslog</string>
@@ -63,19 +63,19 @@
     <string name="changelog_crdroid_error">Kunne ikke indlæse ændringsoversigt</string>
     <!-- About crDroid -->
     <string name="about_crdroid">Om AirDroid</string>
-    <string name="about_device_name">Device</string>
+    <string name="about_device_name">Enhed</string>
     <!-- Share crDroid -->
     <string name="share_crdroid_title">Del crDroid</string>
     <string name="share_crdroid_summary">Fortæl andre om crDroid</string>
-    <string name="share_message">Check out if #crDroidAndroid is available for your device @ https://crdroid.net/</string>
+    <string name="share_message">Tjek ud, hvad #crDroid handler om @ https://plus.google.com/communities/118297646046960923906</string>
     <string name="share_chooser_title">Del crDroid</string>
     <!-- Sites crDroid -->
     <string name="crdroid_source_title">GitHub</string>
     <string name="crdroid_source_summary">Vi elsker open source, tjek os ud</string>
-    <string name="crdroid_telegram_title">crDroid community</string>
+    <string name="crdroid_telegram_title">crDroid fællesskab</string>
     <string name="crdroid_telegram_summary">Vi er på telegram. Tilmeld dig!</string>
-    <string name="crdroid_telegram_channel_title">Updates channel</string>
-    <string name="crdroid_telegram_channel_summary">Get notified of new builds on Telegram</string>
+    <string name="crdroid_telegram_channel_title">Opdater kanal</string>
+    <string name="crdroid_telegram_channel_summary">Få besked om nye builds på Telegram</string>
     <string name="crdroid_website_title">Officielt websted</string>
     <string name="crdroid_website_summary">Besøg det officielle websted</string>
     <string name="crdroid_translate_title">Oversættelser</string>
@@ -90,7 +90,7 @@
     <string name="crdroid_donate_message">crDroid Android is an open-source project which needs your help to keep website online, our build servers running, and to deliver high-quality builds for your device.\n\n
 A small donation helps keep this project alive and improving. You can dismiss this message, but your support means a lot to us.</string>
     <string name="crdroid_donate_button">Donate now</string>
-    <string name="crdroid_later_button">Maybe later</string>
+    <string name="crdroid_later_button">Maybe next month</string>
     <string name="crdroid_channel_name">crDroid notifications</string>
     <string name="crdroid_channel_desc">Project specific notifications</string>
     <string name="crdroid_donate_still_needed">We still need €%,d this month. Help us reach our goal.</string>
@@ -121,12 +121,6 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <string name="status_bar_battery_category_title">Batteritilpasninger</string>
     <!-- Gestures -->
     <string name="gestures_title">Fagter</string>
-    <!-- 4G icon -->
-    <string name="show_fourg_icon_title">4G-ikon</string>
-    <string name="show_fourg_icon_summary">Vis 4G-ikon i signalikonet i stedet for LTE</string>
-    <!-- Data disabled indicator -->
-    <string name="data_disabled_icon_title">Data disabled indicator</string>
-    <string name="data_disabled_icon_summary">Display an indicator next to signal icon when data is disabled</string>
     <!-- Lockscreen categories -->
     <string name="lockscreen_interface_category">Grænseflade</string>
     <!-- Lockscreen battery info indicator -->
@@ -364,14 +358,8 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <string name="status_bar_clock_position_right">Højre</string>
     <string name="status_bar_clock_position_left">Venstre</string>
     <string name="status_bar_clock_position_center">Center</string>
-    <string name="status_bar_clock_position_hidden">Skjult</string>
     <string name="status_bar_clock_auto_hide_title">Auto-skjul</string>
-    <string name="status_bar_clock_auto_hide_launcher_summary">Hide clock if launcher is visible</string>
-    <string name="status_bar_clock_auto_hide_summary">Hide clock at regular interval</string>
-    <string name="status_bar_clock_auto_hide_hdur_title">Skjul varighed</string>
-    <string name="status_bar_clock_auto_hide_hdur_summary">Antal sekunder at skjule uret</string>
-    <string name="status_bar_clock_auto_hide_sdur_title">Visningsvarighed</string>
-    <string name="status_bar_clock_auto_hide_sdur_summary">Antal sekunder at vente før uret skjules</string>
+    <string name="status_bar_clock_auto_hide_summary">Hide clock if launcher is visible</string>
     <string name="status_bar_am_pm_title">AM/PM stil</string>
     <string name="status_bar_am_pm_info">24-timers ur er aktiveret</string>
     <string name="status_bar_am_pm_normal">Normal</string>
@@ -392,7 +380,6 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <string name="clock_date_position">Datoposition</string>
     <string name="clock_date_right">Til højre for klokkeslæt</string>
     <string name="clock_date_left">Til venstre for klokkeslæ</string>
-    <string name="clock_font_size_title">Clock font size</string>
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">Batteristil</string>
     <string name="status_bar_battery_style_icon_portrait">Ikon, stående</string>
@@ -406,6 +393,7 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <string name="status_bar_battery_percent_title">Batteriprocent</string>
     <string name="status_bar_battery_percent_hidden">Skjult</string>
     <string name="status_bar_battery_percent_text_inside">Inde i ikonet</string>
+    <string name="status_bar_battery_percent_text_next">Next to the icon</string>
     <string name="status_bar_battery_percent_text_next_right">Next to the icon (right)</string>
     <string name="status_bar_battery_percent_text_next_left">Next to the icon (left)</string>
     <string name="status_bar_battery_text_charging_title">Battery percentage when charging</string>
@@ -640,9 +628,6 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">Ripple effect</string>
     <string name="enable_fingerprint_ripple_effect_summary">Show ripple effect on unlock with fingerprint</string>
-    <!-- Old mobiletype icon style -->
-    <string name="old_mobiletype_title">Gammeldags signal-ikon</string>
-    <string name="old_mobiletype_summary">Flet signal og signaltype ikoner</string>
     <!-- Screen Off animation -->
     <string name="screen_off_animation_title">Skærmslukningsanimation</string>
     <string name="screen_off_animation_default">Standard</string>
@@ -999,13 +984,6 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <string name="qs_header_offset_title">Header image offset</string>
     <string name="qs_header_offset_summary">Adjust the image header size</string>
     <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
-    <!-- Volume Steps -->
-    <string name="volume_steps_title">Volume Steps</string>
-    <string name="volume_steps_summary">Control the granularity of each stream</string>
-    <string name="max_music_volume_title">Medier</string>
-    <string name="max_call_volume_title">Opkald</string>
-    <string name="max_alarm_volume_title">Alarms</string>
-    <string name="steps_unit">steps</string>
     <!-- AOD Schedule -->
     <string name="always_on_display_schedule_title">Display schedule</string>
     <string name="always_on_display_schedule_summary">Set schedule for always on display</string>
@@ -1106,8 +1084,8 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <!-- Brightness Slider Style -->
     <string name="qs_brightness_slider_shape_title">Brightness slider shape</string>
     <!-- Force LTE_CA -->
-    <string name="force_lte_ca">Force LTE CA</string>
-    <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
+    <string name="force_lte_ca_title">LTE carrier aggregation</string>
+    <string name="force_lte_ca_summary">Enhances LTE bandwidth by aggregating supported bands</string>
     <!-- QS on lockscreen -->
     <string name="lockscreen_quick_settings_title">QS on lock screen</string>
     <string name="lockscreen_quick_settings_summary">Allow swipe down on lock screen to view Quick Settings</string>
@@ -1153,6 +1131,7 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <string name="pulse_renderer_retro_vu_meter">Retro VU meter</string>
     <string name="pulse_renderer_minimal_wave">Minimal wave</string>
     <string name="pulse_renderer_sparkle">Sparkle</string>
+    <string name="pulse_renderer_matrix">Matrix</string>
     <!-- Notification Row -->
     <string name="notification_row_transparency_title">Translucent notifications</string>
     <string name="notification_row_transparency_summary">Set translucent background for notifications in QS</string>
@@ -1167,4 +1146,8 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <!-- Vbmeta hash attestation -->
     <string name="vbmeta_attestation_title">Autofix VBMeta detection</string>
     <string name="vbmeta_attestation_summary">Perform key attestation to generate verified boot hash on boot. Requires system restart.</string>
+    <!-- Menu option for not validating the EAP server -->
+    <string name="wifi_do_not_validate_eap_server">Do not validate</string>
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <string name="wifi_do_not_validate_eap_server_warning">No certificate specified. Your connection will not be private.</string>
 </resources>

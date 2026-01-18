@@ -90,7 +90,7 @@
     <string name="crdroid_donate_message">crDroid Android is an open-source project which needs your help to keep website online, our build servers running, and to deliver high-quality builds for your device.\n\n
 A small donation helps keep this project alive and improving. You can dismiss this message, but your support means a lot to us.</string>
     <string name="crdroid_donate_button">Donate now</string>
-    <string name="crdroid_later_button">Maybe later</string>
+    <string name="crdroid_later_button">Maybe next month</string>
     <string name="crdroid_channel_name">crDroid notifications</string>
     <string name="crdroid_channel_desc">Project specific notifications</string>
     <string name="crdroid_donate_still_needed">We still need €%,d this month. Help us reach our goal.</string>
@@ -121,12 +121,6 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <string name="status_bar_battery_category_title">பேட்டரி தனிப்பயனாக்கல்</string>
     <!-- Gestures -->
     <string name="gestures_title">சைகைகள்</string>
-    <!-- 4G icon -->
-    <string name="show_fourg_icon_title">4G படவுரு</string>
-    <string name="show_fourg_icon_summary">LTEக்கு பதிலாக சிக்னல் படவுருவில் 4G படவுருவை காண்பி</string>
-    <!-- Data disabled indicator -->
-    <string name="data_disabled_icon_title">தரவு முடக்கப்பட்டதை காட்டி</string>
-    <string name="data_disabled_icon_summary">தரவு முடக்கப்பட்டிருக்கும்போது சிக்னல் ஐகானுக்கு அடுத்ததாக ஒரு காட்டியைக் காண்பி</string>
     <!-- Lockscreen categories -->
     <string name="lockscreen_interface_category">இடைமுகம்</string>
     <!-- Lockscreen battery info indicator -->
@@ -364,14 +358,8 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <string name="status_bar_clock_position_right">வலது</string>
     <string name="status_bar_clock_position_left">இடது</string>
     <string name="status_bar_clock_position_center">மையம்</string>
-    <string name="status_bar_clock_position_hidden">மறைந்துள்ள</string>
     <string name="status_bar_clock_auto_hide_title">தானாக மறை</string>
-    <string name="status_bar_clock_auto_hide_launcher_summary">Hide clock if launcher is visible</string>
-    <string name="status_bar_clock_auto_hide_summary">Hide clock at regular interval</string>
-    <string name="status_bar_clock_auto_hide_hdur_title">கால அளவை மறை</string>
-    <string name="status_bar_clock_auto_hide_hdur_summary">Number of seconds to hide clock</string>
-    <string name="status_bar_clock_auto_hide_sdur_title">கால அளவை காண்பி</string>
-    <string name="status_bar_clock_auto_hide_sdur_summary">Number of seconds to wait before hiding clock</string>
+    <string name="status_bar_clock_auto_hide_summary">Hide clock if launcher is visible</string>
     <string name="status_bar_am_pm_title">AM/PM நடை</string>
     <string name="status_bar_am_pm_info">24-மணிநேர கடிகாரம் செயல்படுத்தப்பட்டுள்ளது</string>
     <string name="status_bar_am_pm_normal">சாதாரண</string>
@@ -392,7 +380,6 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <string name="clock_date_position">Date position</string>
     <string name="clock_date_right">Right of time</string>
     <string name="clock_date_left">Left of time</string>
-    <string name="clock_font_size_title">Clock font size</string>
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">பேட்டரி நடை</string>
     <string name="status_bar_battery_style_icon_portrait">Icon portrait</string>
@@ -406,6 +393,7 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <string name="status_bar_battery_percent_title">மின்கல சதவீதம்</string>
     <string name="status_bar_battery_percent_hidden">மறைந்துள்ள</string>
     <string name="status_bar_battery_percent_text_inside">படவுருக்குள்</string>
+    <string name="status_bar_battery_percent_text_next">Next to the icon</string>
     <string name="status_bar_battery_percent_text_next_right">Next to the icon (right)</string>
     <string name="status_bar_battery_percent_text_next_left">Next to the icon (left)</string>
     <string name="status_bar_battery_text_charging_title">Battery percentage when charging</string>
@@ -643,9 +631,6 @@ quick_settings_expanded_desktop
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">Ripple effect</string>
     <string name="enable_fingerprint_ripple_effect_summary">Show ripple effect on unlock with fingerprint</string>
-    <!-- Old mobiletype icon style -->
-    <string name="old_mobiletype_title">பழைய நடை சிக்னல் படவுரு</string>
-    <string name="old_mobiletype_summary">Merge signal and signal type icons</string>
     <!-- Screen Off animation -->
     <string name="screen_off_animation_title">Screen off animation</string>
     <string name="screen_off_animation_default">இயல்புநிலை</string>
@@ -1002,13 +987,6 @@ quick_settings_expanded_desktop
     <string name="qs_header_offset_title">Header image offset</string>
     <string name="qs_header_offset_summary">Adjust the image header size</string>
     <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
-    <!-- Volume Steps -->
-    <string name="volume_steps_title">Volume Steps</string>
-    <string name="volume_steps_summary">Control the granularity of each stream</string>
-    <string name="max_music_volume_title">ஊடகம்</string>
-    <string name="max_call_volume_title">அழைப்புகள்</string>
-    <string name="max_alarm_volume_title">Alarms</string>
-    <string name="steps_unit">steps</string>
     <!-- AOD Schedule -->
     <string name="always_on_display_schedule_title">Display schedule</string>
     <string name="always_on_display_schedule_summary">Set schedule for always on display</string>
@@ -1109,8 +1087,8 @@ quick_settings_expanded_desktop
     <!-- Brightness Slider Style -->
     <string name="qs_brightness_slider_shape_title">Brightness slider shape</string>
     <!-- Force LTE_CA -->
-    <string name="force_lte_ca">Force LTE CA</string>
-    <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
+    <string name="force_lte_ca_title">LTE carrier aggregation</string>
+    <string name="force_lte_ca_summary">Enhances LTE bandwidth by aggregating supported bands</string>
     <!-- QS on lockscreen -->
     <string name="lockscreen_quick_settings_title">QS on lock screen</string>
     <string name="lockscreen_quick_settings_summary">Allow swipe down on lock screen to view Quick Settings</string>
@@ -1156,6 +1134,7 @@ quick_settings_expanded_desktop
     <string name="pulse_renderer_retro_vu_meter">Retro VU meter</string>
     <string name="pulse_renderer_minimal_wave">Minimal wave</string>
     <string name="pulse_renderer_sparkle">Sparkle</string>
+    <string name="pulse_renderer_matrix">Matrix</string>
     <!-- Notification Row -->
     <string name="notification_row_transparency_title">Translucent notifications</string>
     <string name="notification_row_transparency_summary">Set translucent background for notifications in QS</string>
@@ -1170,4 +1149,8 @@ quick_settings_expanded_desktop
     <!-- Vbmeta hash attestation -->
     <string name="vbmeta_attestation_title">Autofix VBMeta detection</string>
     <string name="vbmeta_attestation_summary">Perform key attestation to generate verified boot hash on boot. Requires system restart.</string>
+    <!-- Menu option for not validating the EAP server -->
+    <string name="wifi_do_not_validate_eap_server">Do not validate</string>
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <string name="wifi_do_not_validate_eap_server_warning">No certificate specified. Your connection will not be private.</string>
 </resources>

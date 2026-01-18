@@ -90,7 +90,7 @@
     <string name="crdroid_donate_message">crDroid Android - это проект с открытым исходным кодом, который нуждается в Вашей помощи для поддержания web-сайта в рабочем состоянии, работы наших серверов сборки и предоставления высококачественных сборок для Вашего устройства.\n\n
 Небольшое пожертвование поможет поддерживать этот проект в рабочем состоянии и улучшать его. Вы можете отказаться от этого сообщения, но Ваша поддержка очень много значит для нас.</string>
     <string name="crdroid_donate_button">Пожертвовать</string>
-    <string name="crdroid_later_button">Возможно позже</string>
+    <string name="crdroid_later_button">Может, в следующем месяце</string>
     <string name="crdroid_channel_name">Уведомления crDroid</string>
     <string name="crdroid_channel_desc">Уведомления, относящиеся к проекту</string>
     <string name="crdroid_donate_still_needed">Нам всё ещё необходимо €%,d в этом месяце. Помогите нам достичь цели.</string>
@@ -121,12 +121,6 @@
     <string name="status_bar_battery_category_title">Настройки батареи</string>
     <!-- Gestures -->
     <string name="gestures_title">Жесты</string>
-    <!-- 4G icon -->
-    <string name="show_fourg_icon_title">Значок 4G</string>
-    <string name="show_fourg_icon_summary">Отображать «4G» вместо «LTE»</string>
-    <!-- Data disabled indicator -->
-    <string name="data_disabled_icon_title">Индикатор отключенной передачи данных</string>
-    <string name="data_disabled_icon_summary">Показывать «x» на индикаторе сигнала, когда передача данных отключена</string>
     <!-- Lockscreen categories -->
     <string name="lockscreen_interface_category">Интерфейс</string>
     <!-- Lockscreen battery info indicator -->
@@ -366,14 +360,8 @@
     <string name="status_bar_clock_position_right">Справа</string>
     <string name="status_bar_clock_position_left">Слева</string>
     <string name="status_bar_clock_position_center">По центру</string>
-    <string name="status_bar_clock_position_hidden">Не показывать</string>
     <string name="status_bar_clock_auto_hide_title">Автоскрытие</string>
-    <string name="status_bar_clock_auto_hide_launcher_summary">Скрывать часы, если открыт рабочий стол</string>
-    <string name="status_bar_clock_auto_hide_summary">Скрывать часы через регулярные промежутки времени</string>
-    <string name="status_bar_clock_auto_hide_hdur_title">Длительность скрытия</string>
-    <string name="status_bar_clock_auto_hide_hdur_summary">Количество секунд, в течение которых часы будут скрыты</string>
-    <string name="status_bar_clock_auto_hide_sdur_title">Длительность отображения</string>
-    <string name="status_bar_clock_auto_hide_sdur_summary">Количество секунд до скрытия часов</string>
+    <string name="status_bar_clock_auto_hide_summary">Скрывать часы, если открыт рабочий стол</string>
     <string name="status_bar_am_pm_title">Стиль AM/PM</string>
     <string name="status_bar_am_pm_info">24-часовой формат включен</string>
     <string name="status_bar_am_pm_normal">Обычный</string>
@@ -394,7 +382,6 @@
     <string name="clock_date_position">Расположение даты</string>
     <string name="clock_date_right">Справа от часов</string>
     <string name="clock_date_left">Слева от часов</string>
-    <string name="clock_font_size_title">Размер шрифта часов</string>
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">Вид батареи</string>
     <string name="status_bar_battery_style_icon_portrait">Вертикальный значок</string>
@@ -408,6 +395,7 @@
     <string name="status_bar_battery_percent_title">Процент заряда батареи</string>
     <string name="status_bar_battery_percent_hidden">Скрыт</string>
     <string name="status_bar_battery_percent_text_inside">Внутри значка</string>
+    <string name="status_bar_battery_percent_text_next">Рядом со значком</string>
     <string name="status_bar_battery_percent_text_next_right">Рядом со значком (справа)</string>
     <string name="status_bar_battery_percent_text_next_left">Рядом со значком (слева)</string>
     <string name="status_bar_battery_text_charging_title">Процент заряда батареи при зарядке</string>
@@ -642,9 +630,6 @@
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">Эффект пульсации</string>
     <string name="enable_fingerprint_ripple_effect_summary">Показывать эффект пульсации при разблокировке с помощью отпечатка пальца</string>
-    <!-- Old mobiletype icon style -->
-    <string name="old_mobiletype_title">Уровень сети в старом стиле</string>
-    <string name="old_mobiletype_summary">Объединить значок уровня сигнала и типа сети</string>
     <!-- Screen Off animation -->
     <string name="screen_off_animation_title">Анимация выключения экрана</string>
     <string name="screen_off_animation_default">По умолчанию</string>
@@ -1005,13 +990,6 @@
     <string name="qs_header_offset_title">Смещение изображения</string>
     <string name="qs_header_offset_summary">Изменение высоты изображения заголовка</string>
     <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
-    <!-- Volume Steps -->
-    <string name="volume_steps_title">Ступени громкости</string>
-    <string name="volume_steps_summary">Контролируйте степень детализации каждого потока</string>
-    <string name="max_music_volume_title">Медиа</string>
-    <string name="max_call_volume_title">Вызовы</string>
-    <string name="max_alarm_volume_title">Будильники</string>
-    <string name="steps_unit">шагов</string>
     <!-- AOD Schedule -->
     <string name="always_on_display_schedule_title">Расписание отображения</string>
     <string name="always_on_display_schedule_summary">Расписание всегда включенного экрана</string>
@@ -1078,7 +1056,7 @@
     <string name="systemui_restart_message">Чтобы изменения вступили в силу, требуется перезагрузка интерфейса. Сделать это сейчас?</string>
     <string name="systemui_restart_yes">Да</string>
     <string name="systemui_restart_not_now">Не сейчас</string>
-    <string name="systemui_restart_process">Перезапустите интерфейс для применения изменений...</string>
+    <string name="systemui_restart_process">Перезапуск интерфейса, для применения изменений...</string>
     <!-- Notification / Power Menu Styles -->
     <string name="notification_style_title">Стиль уведомления</string>
     <string name="powermenu_style_title">Стиль меню питания</string>
@@ -1112,8 +1090,8 @@
     <!-- Brightness Slider Style -->
     <string name="qs_brightness_slider_shape_title">Форма регулятора яркости</string>
     <!-- Force LTE_CA -->
-    <string name="force_lte_ca">Принудительно LTE CA</string>
-    <string name="force_lte_ca_summary">Принудительно объединять LTE операторов для работы</string>
+    <string name="force_lte_ca_title">Объединение LTE операторов</string>
+    <string name="force_lte_ca_summary">Увеличивается пропускная способность LTE за счёт объединения поддерживаемых диапазонов</string>
     <!-- QS on lockscreen -->
     <string name="lockscreen_quick_settings_title">Показывать на экране блокировки</string>
     <string name="lockscreen_quick_settings_summary">Разрешить смахивание вниз на экране блокировки для показа быстрых настроек</string>
@@ -1159,6 +1137,7 @@
     <string name="pulse_renderer_retro_vu_meter">Ретро измеритель громкости</string>
     <string name="pulse_renderer_minimal_wave">Небольшая волна</string>
     <string name="pulse_renderer_sparkle">Сияние</string>
+    <string name="pulse_renderer_matrix">Матрица</string>
     <!-- Notification Row -->
     <string name="notification_row_transparency_title">Прозрачные уведомления</string>
     <string name="notification_row_transparency_summary">Прозрачный фон уведомлений в быстрых настройках</string>
@@ -1173,4 +1152,8 @@
     <!-- Vbmeta hash attestation -->
     <string name="vbmeta_attestation_title">Автоисправление обнаружения VBMeta</string>
     <string name="vbmeta_attestation_summary">Выполните проверку ключа, чтобы сгенерировать подтверждённый загрузочный хэш. Требуется перезагрузка системы.</string>
+    <!-- Menu option for not validating the EAP server -->
+    <string name="wifi_do_not_validate_eap_server">Не проверять</string>
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <string name="wifi_do_not_validate_eap_server_warning">Сертификат не указан. Ваше соединение не будет защищено.</string>
 </resources>

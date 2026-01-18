@@ -90,7 +90,7 @@
     <string name="crdroid_donate_message">crDroid Android je projekt otvorenog koda kojem je potrebna vaša pomoć kako bi web stranica bila online, naši poslužitelji za izradu radili i kako bi isporučivao visokokvalitetne izrade za vaš uređaj..\n\n
 Mala donacija pomaže u održavanju i poboljšanju ovog projekta. Možete odbaciti ovu poruku, ali vaša podrška nam puno znači.</string>
     <string name="crdroid_donate_button">Donirajte sada</string>
-    <string name="crdroid_later_button">Možda kasnije</string>
+    <string name="crdroid_later_button">Maybe next month</string>
     <string name="crdroid_channel_name">crDroid obavijesti</string>
     <string name="crdroid_channel_desc">Obavijesti specifične za projekt</string>
     <string name="crdroid_donate_still_needed">Još nam treba €%d ovaj mjesec. Pomozite nam da ostvarimo naš cilj.</string>
@@ -121,12 +121,6 @@ Mala donacija pomaže u održavanju i poboljšanju ovog projekta. Možete odbaci
     <string name="status_bar_battery_category_title">Prilagodbe baterije</string>
     <!-- Gestures -->
     <string name="gestures_title">Geste</string>
-    <!-- 4G icon -->
-    <string name="show_fourg_icon_title">4G ikona</string>
-    <string name="show_fourg_icon_summary">Prikažite ikonu 4G u traci statusa umjesto LTE</string>
-    <!-- Data disabled indicator -->
-    <string name="data_disabled_icon_title">Indikator onemogućenih podataka</string>
-    <string name="data_disabled_icon_summary">Prikaži indikator pored ikone signala kada su podaci onemogućeni</string>
     <!-- Lockscreen categories -->
     <string name="lockscreen_interface_category">Sučelje</string>
     <!-- Lockscreen battery info indicator -->
@@ -365,14 +359,8 @@ Mala donacija pomaže u održavanju i poboljšanju ovog projekta. Možete odbaci
     <string name="status_bar_clock_position_right">Desno</string>
     <string name="status_bar_clock_position_left">Lijevo</string>
     <string name="status_bar_clock_position_center">Centar</string>
-    <string name="status_bar_clock_position_hidden">Skriveno</string>
     <string name="status_bar_clock_auto_hide_title">Automatsko sakrivanje</string>
-    <string name="status_bar_clock_auto_hide_launcher_summary">Sakrij sat ako je pokretač vidljiv</string>
-    <string name="status_bar_clock_auto_hide_summary">Sakrij sat u redovitim intervalima</string>
-    <string name="status_bar_clock_auto_hide_hdur_title">Sakrij trajanje</string>
-    <string name="status_bar_clock_auto_hide_hdur_summary">Broj sekundi za sakrivanje sata</string>
-    <string name="status_bar_clock_auto_hide_sdur_title">Prikaži trajanje</string>
-    <string name="status_bar_clock_auto_hide_sdur_summary">Broj sekundi koje treba pričekati prije sakrivanja sata</string>
+    <string name="status_bar_clock_auto_hide_summary">Sakrij sat ako je pokretač vidljiv</string>
     <string name="status_bar_am_pm_title">AM/PM stil</string>
     <string name="status_bar_am_pm_info">Omogućen je 24-satni prikaz vremena</string>
     <string name="status_bar_am_pm_normal">Normalno</string>
@@ -393,7 +381,6 @@ Mala donacija pomaže u održavanju i poboljšanju ovog projekta. Možete odbaci
     <string name="clock_date_position">Položaj datuma</string>
     <string name="clock_date_right">Desno od sata</string>
     <string name="clock_date_left">Lijevo od sata</string>
-    <string name="clock_font_size_title">Veličina fonta sata</string>
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">Stil baterije</string>
     <string name="status_bar_battery_style_icon_portrait">Ikona u portretu</string>
@@ -407,6 +394,7 @@ Mala donacija pomaže u održavanju i poboljšanju ovog projekta. Možete odbaci
     <string name="status_bar_battery_percent_title">Postotak baterije</string>
     <string name="status_bar_battery_percent_hidden">Skriveno</string>
     <string name="status_bar_battery_percent_text_inside">Unutar ikone</string>
+    <string name="status_bar_battery_percent_text_next">Next to the icon</string>
     <string name="status_bar_battery_percent_text_next_right">Pored ikone (desno)</string>
     <string name="status_bar_battery_percent_text_next_left">Pored ikone (lijevo)</string>
     <string name="status_bar_battery_text_charging_title">Postotak baterije tijekom punjenja</string>
@@ -641,9 +629,6 @@ Mala donacija pomaže u održavanju i poboljšanju ovog projekta. Možete odbaci
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">Efekt valova</string>
     <string name="enable_fingerprint_ripple_effect_summary">Prikaži efekt valova pri otključavanju otiskom prsta</string>
-    <!-- Old mobiletype icon style -->
-    <string name="old_mobiletype_title">Ikona signala u starom stilu</string>
-    <string name="old_mobiletype_summary">Spoji ikone signala i vrste signala</string>
     <!-- Screen Off animation -->
     <string name="screen_off_animation_title">Animacija isključivanja zaslona</string>
     <string name="screen_off_animation_default">Zadano</string>
@@ -1002,13 +987,6 @@ Mala donacija pomaže u održavanju i poboljšanju ovog projekta. Možete odbaci
     <string name="qs_header_offset_title">Header image offset</string>
     <string name="qs_header_offset_summary">Adjust the image header size</string>
     <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
-    <!-- Volume Steps -->
-    <string name="volume_steps_title">Volume Steps</string>
-    <string name="volume_steps_summary">Control the granularity of each stream</string>
-    <string name="max_music_volume_title">Media</string>
-    <string name="max_call_volume_title">Pozivi</string>
-    <string name="max_alarm_volume_title">Alarms</string>
-    <string name="steps_unit">steps</string>
     <!-- AOD Schedule -->
     <string name="always_on_display_schedule_title">Display schedule</string>
     <string name="always_on_display_schedule_summary">Set schedule for always on display</string>
@@ -1109,8 +1087,8 @@ Mala donacija pomaže u održavanju i poboljšanju ovog projekta. Možete odbaci
     <!-- Brightness Slider Style -->
     <string name="qs_brightness_slider_shape_title">Brightness slider shape</string>
     <!-- Force LTE_CA -->
-    <string name="force_lte_ca">Force LTE CA</string>
-    <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
+    <string name="force_lte_ca_title">LTE carrier aggregation</string>
+    <string name="force_lte_ca_summary">Enhances LTE bandwidth by aggregating supported bands</string>
     <!-- QS on lockscreen -->
     <string name="lockscreen_quick_settings_title">QS on lock screen</string>
     <string name="lockscreen_quick_settings_summary">Allow swipe down on lock screen to view Quick Settings</string>
@@ -1156,6 +1134,7 @@ Mala donacija pomaže u održavanju i poboljšanju ovog projekta. Možete odbaci
     <string name="pulse_renderer_retro_vu_meter">Retro VU metar</string>
     <string name="pulse_renderer_minimal_wave">Minimalni val</string>
     <string name="pulse_renderer_sparkle">Sjaj</string>
+    <string name="pulse_renderer_matrix">Matrix</string>
     <!-- Notification Row -->
     <string name="notification_row_transparency_title">Translucent notifications</string>
     <string name="notification_row_transparency_summary">Set translucent background for notifications in QS</string>
@@ -1170,4 +1149,8 @@ Mala donacija pomaže u održavanju i poboljšanju ovog projekta. Možete odbaci
     <!-- Vbmeta hash attestation -->
     <string name="vbmeta_attestation_title">Automatsko ispravljanje VBMeta detekcije</string>
     <string name="vbmeta_attestation_summary">Izvršite atestaciju ključa za generiranje provjerenog hasha pokretanja pri pokretanju. Potrebno je ponovno pokretanje sustava.</string>
+    <!-- Menu option for not validating the EAP server -->
+    <string name="wifi_do_not_validate_eap_server">Do not validate</string>
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <string name="wifi_do_not_validate_eap_server_warning">No certificate specified. Your connection will not be private.</string>
 </resources>

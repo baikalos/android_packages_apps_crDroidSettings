@@ -85,13 +85,14 @@
     <!-- Support crDroid -->
     <string name="crdroid_donate_preference_title">Tue meitä</string>
     <string name="crdroid_donate_preference_summary">Tue jatkokehitystä lahjoittamalla</string>
-    <string name="crdroid_donate_title">crDroid needs your help!</string>
-    <string name="crdroid_donate_notification_text">Tap to learn more</string>
-    <string name="crdroid_donate_message">crDroid Android is an open-source project which needs your help to keep website online, our build servers running, and to deliver high-quality builds for your device.\n\n
-A small donation helps keep this project alive and improving. You can dismiss this message, but your support means a lot to us.</string>
-    <string name="crdroid_donate_button">Donate now</string>
-    <string name="crdroid_later_button">Maybe later</string>
-    <string name="crdroid_channel_name">crDroid notifications</string>
+    <string name="crdroid_donate_title">crDroid tarvitsee tukeasi!</string>
+    <string name="crdroid_donate_notification_text">Paina tietääksesi lisää</string>
+    <string name="crdroid_donate_message">crDroid android on avoimen lähdekoodin projekti mikä tarvitsee tukeasi pysyäkseen pystyssä, meidän palvelumme toiminnassa, ja toimittaakseen korkealaatuisia päivityksiä laitteellesi.
+Pienikin lahjoitus auttaa projektin ylläpidossa.
+Voit hylätä tämän viestin mutta tukesi auttaa paljon.</string>
+    <string name="crdroid_donate_button">Lahjoita nyt</string>
+    <string name="crdroid_later_button">Ehkä ensi kuussa</string>
+    <string name="crdroid_channel_name">crDroid ilmoitukset</string>
     <string name="crdroid_channel_desc">Project specific notifications</string>
     <string name="crdroid_donate_still_needed">We still need €%,d this month. Help us reach our goal.</string>
     <string name="crdroid_donate_thank_you">We appreciate all donations for this month. You can still contribute and make a difference!</string>
@@ -121,12 +122,6 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <string name="status_bar_battery_category_title">Akun mukautukset</string>
     <!-- Gestures -->
     <string name="gestures_title">Eleet</string>
-    <!-- 4G icon -->
-    <string name="show_fourg_icon_title">4G-kuvake</string>
-    <string name="show_fourg_icon_summary">Näytä 4G-kuvake signaalin kuvakkeessa LTE: n sijaan</string>
-    <!-- Data disabled indicator -->
-    <string name="data_disabled_icon_title">Data pois käytöstä -ilmaisin</string>
-    <string name="data_disabled_icon_summary">Näytä signaali-kuvakkeen vieressä oleva ilmaisin, kun data on pois päältä</string>
     <!-- Lockscreen categories -->
     <string name="lockscreen_interface_category">Käyttöliittymä</string>
     <!-- Lockscreen battery info indicator -->
@@ -364,14 +359,8 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <string name="status_bar_clock_position_right">Oikea</string>
     <string name="status_bar_clock_position_left">Vasen</string>
     <string name="status_bar_clock_position_center">Keskitetty</string>
-    <string name="status_bar_clock_position_hidden">Piilotettu</string>
     <string name="status_bar_clock_auto_hide_title">Piilota automaattisesti</string>
-    <string name="status_bar_clock_auto_hide_launcher_summary">Piilota kello, jos aloitusnäyttö on näkyvissä</string>
-    <string name="status_bar_clock_auto_hide_summary">Piilota kello säännöllisin väliajoin</string>
-    <string name="status_bar_clock_auto_hide_hdur_title">Piilotuksen kesto</string>
-    <string name="status_bar_clock_auto_hide_hdur_summary">Kellon piilottamisen sekuntien määrä</string>
-    <string name="status_bar_clock_auto_hide_sdur_title">Näyttämisen kesto</string>
-    <string name="status_bar_clock_auto_hide_sdur_summary">Kuinka monta sekuntia odotetaan ennen kuin kello piilotetaan</string>
+    <string name="status_bar_clock_auto_hide_summary">Piilota kello, jos aloitusnäyttö on näkyvissä</string>
     <string name="status_bar_am_pm_title">AM/PM -tyyli</string>
     <string name="status_bar_am_pm_info">24-tunnin kello on käytössä</string>
     <string name="status_bar_am_pm_normal">Normaali</string>
@@ -392,7 +381,6 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <string name="clock_date_position">Päivämäärän sijainti</string>
     <string name="clock_date_right">Ajan oikealla puolella</string>
     <string name="clock_date_left">Ajan vasemmalla puolella</string>
-    <string name="clock_font_size_title">Kellon tekstin koko</string>
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">Akun tyyli</string>
     <string name="status_bar_battery_style_icon_portrait">Kuvake pystyssä</string>
@@ -406,6 +394,7 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <string name="status_bar_battery_percent_title">Akun prosentti</string>
     <string name="status_bar_battery_percent_hidden">Piilotettu</string>
     <string name="status_bar_battery_percent_text_inside">Kuvakkeen sisällä</string>
+    <string name="status_bar_battery_percent_text_next">Next to the icon</string>
     <string name="status_bar_battery_percent_text_next_right">Kuvakkeen vieressä (oikealla)</string>
     <string name="status_bar_battery_percent_text_next_left">Kuvakkeen vieressä (vasemmalla)</string>
     <string name="status_bar_battery_text_charging_title">Akun prosentti latauksen aikana</string>
@@ -640,9 +629,6 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">Ripple effect</string>
     <string name="enable_fingerprint_ripple_effect_summary">Show ripple effect on unlock with fingerprint</string>
-    <!-- Old mobiletype icon style -->
-    <string name="old_mobiletype_title">Vanhan tyylin signaalikuvake</string>
-    <string name="old_mobiletype_summary">Yhdistä signaali- ja signaalin tyyppiset kuvakkeet</string>
     <!-- Screen Off animation -->
     <string name="screen_off_animation_title">Näytön sulkemisanimaatio</string>
     <string name="screen_off_animation_default">Oletus</string>
@@ -999,13 +985,6 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <string name="qs_header_offset_title">Header image offset</string>
     <string name="qs_header_offset_summary">Adjust the image header size</string>
     <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
-    <!-- Volume Steps -->
-    <string name="volume_steps_title">Volume Steps</string>
-    <string name="volume_steps_summary">Control the granularity of each stream</string>
-    <string name="max_music_volume_title">Media</string>
-    <string name="max_call_volume_title">Puhelut</string>
-    <string name="max_alarm_volume_title">Hälytykset</string>
-    <string name="steps_unit">steps</string>
     <!-- AOD Schedule -->
     <string name="always_on_display_schedule_title">Display schedule</string>
     <string name="always_on_display_schedule_summary">Set schedule for always on display</string>
@@ -1106,8 +1085,8 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <!-- Brightness Slider Style -->
     <string name="qs_brightness_slider_shape_title">Brightness slider shape</string>
     <!-- Force LTE_CA -->
-    <string name="force_lte_ca">Force LTE CA</string>
-    <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
+    <string name="force_lte_ca_title">LTE carrier aggregation</string>
+    <string name="force_lte_ca_summary">Enhances LTE bandwidth by aggregating supported bands</string>
     <!-- QS on lockscreen -->
     <string name="lockscreen_quick_settings_title">QS on lock screen</string>
     <string name="lockscreen_quick_settings_summary">Allow swipe down on lock screen to view Quick Settings</string>
@@ -1153,6 +1132,7 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <string name="pulse_renderer_retro_vu_meter">Retro VU meter</string>
     <string name="pulse_renderer_minimal_wave">Minimal wave</string>
     <string name="pulse_renderer_sparkle">Sparkle</string>
+    <string name="pulse_renderer_matrix">Matrix</string>
     <!-- Notification Row -->
     <string name="notification_row_transparency_title">Translucent notifications</string>
     <string name="notification_row_transparency_summary">Set translucent background for notifications in QS</string>
@@ -1167,4 +1147,8 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <!-- Vbmeta hash attestation -->
     <string name="vbmeta_attestation_title">Autofix VBMeta detection</string>
     <string name="vbmeta_attestation_summary">Perform key attestation to generate verified boot hash on boot. Requires system restart.</string>
+    <!-- Menu option for not validating the EAP server -->
+    <string name="wifi_do_not_validate_eap_server">Do not validate</string>
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <string name="wifi_do_not_validate_eap_server_warning">No certificate specified. Your connection will not be private.</string>
 </resources>

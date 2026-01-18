@@ -90,7 +90,7 @@
     <string name="crdroid_donate_message">crDroid Android este un proiect open-source care are nevoie de ajutorul tău pentru a păstra site-ul online, serverele noastre de compilare rulează și oferă un ROM de înaltă calitate pentru dispozitivul tău.\n\n
 O donație mică ajută la menținerea acestui proiect în viață și la îmbunătățirea lui. Poți respinge acest mesaj, dar suportul tău înseamnă mult pentru noi.</string>
     <string name="crdroid_donate_button">Donează acum</string>
-    <string name="crdroid_later_button">Poate mai târziu</string>
+    <string name="crdroid_later_button">Poate luna viitoare</string>
     <string name="crdroid_channel_name">Notificări crDroid</string>
     <string name="crdroid_channel_desc">Notificări specifice proiectului</string>
     <string name="crdroid_donate_still_needed">Avem încă nevoie de €%,d în această lună. Ajută-ne să ne atingem obiectivul.</string>
@@ -121,12 +121,6 @@ O donație mică ajută la menținerea acestui proiect în viață și la îmbun
     <string name="status_bar_battery_category_title">Customizare baterie</string>
     <!-- Gestures -->
     <string name="gestures_title">Gesturi</string>
-    <!-- 4G icon -->
-    <string name="show_fourg_icon_title">Pictograma 4G</string>
-    <string name="show_fourg_icon_summary">Afisare pictograma 4G in loc de LTE</string>
-    <!-- Data disabled indicator -->
-    <string name="data_disabled_icon_title">Indicator date mobile dezactivat</string>
-    <string name="data_disabled_icon_summary">Afișează un indicator lângă pictograma de semnal atunci când datele sunt dezactivate</string>
     <!-- Lockscreen categories -->
     <string name="lockscreen_interface_category">Interfață</string>
     <!-- Lockscreen battery info indicator -->
@@ -365,14 +359,8 @@ O donație mică ajută la menținerea acestui proiect în viață și la îmbun
     <string name="status_bar_clock_position_right">Drepta</string>
     <string name="status_bar_clock_position_left">Stânga</string>
     <string name="status_bar_clock_position_center">Centru</string>
-    <string name="status_bar_clock_position_hidden">Ascuns</string>
     <string name="status_bar_clock_auto_hide_title">Ascundere automată</string>
-    <string name="status_bar_clock_auto_hide_launcher_summary">Ascunde ceasul dacă lansatorul este vizibil</string>
-    <string name="status_bar_clock_auto_hide_summary">Ascunde ceasul la intervale regulate</string>
-    <string name="status_bar_clock_auto_hide_hdur_title">Ascunde durata</string>
-    <string name="status_bar_clock_auto_hide_hdur_summary">Numărul de secunde pentru a ascunde ceasul</string>
-    <string name="status_bar_clock_auto_hide_sdur_title">Durată afişat</string>
-    <string name="status_bar_clock_auto_hide_sdur_summary">Numărul de secunde să aştepte înainte de a ascunde ceasul</string>
+    <string name="status_bar_clock_auto_hide_summary">Ascunde ceasul dacă lansatorul este vizibil</string>
     <string name="status_bar_am_pm_title">Stil AM/PM</string>
     <string name="status_bar_am_pm_info">Formatul 24 de ore este activat</string>
     <string name="status_bar_am_pm_normal">Normal</string>
@@ -393,7 +381,6 @@ O donație mică ajută la menținerea acestui proiect în viață și la îmbun
     <string name="clock_date_position">Poziţie dată</string>
     <string name="clock_date_right">În dreapta ceasului</string>
     <string name="clock_date_left">Stânga de timp</string>
-    <string name="clock_font_size_title">Mărime font ceas</string>
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">Stil baterie</string>
     <string name="status_bar_battery_style_icon_portrait">Pictograma portret</string>
@@ -407,6 +394,7 @@ O donație mică ajută la menținerea acestui proiect în viață și la îmbun
     <string name="status_bar_battery_percent_title">Procentaj baterie</string>
     <string name="status_bar_battery_percent_hidden">Ascuns</string>
     <string name="status_bar_battery_percent_text_inside">În interiorul pictogramei</string>
+    <string name="status_bar_battery_percent_text_next">Lângă pictogramă</string>
     <string name="status_bar_battery_percent_text_next_right">Lângă pictograma (dreapta)</string>
     <string name="status_bar_battery_percent_text_next_left">Lângă pictograma (stânga)</string>
     <string name="status_bar_battery_text_charging_title">Procentul bateriei la încărcare</string>
@@ -641,9 +629,6 @@ O donație mică ajută la menținerea acestui proiect în viață și la îmbun
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">Efect ondulare</string>
     <string name="enable_fingerprint_ripple_effect_summary">Arată efectul de undă la deblocare cu amprentă</string>
-    <!-- Old mobiletype icon style -->
-    <string name="old_mobiletype_title">Pictogramă semnal stil vechi</string>
-    <string name="old_mobiletype_summary">Îmbinați semnalul și pictogramele tipului de semnal</string>
     <!-- Screen Off animation -->
     <string name="screen_off_animation_title">Animație oprire ecran</string>
     <string name="screen_off_animation_default">Implicit</string>
@@ -1002,13 +987,6 @@ O donație mică ajută la menținerea acestui proiect în viață și la îmbun
     <string name="qs_header_offset_title">Decalaj imagine antet</string>
     <string name="qs_header_offset_summary">Reglaţi dimensiunea antetului imaginii</string>
     <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
-    <!-- Volume Steps -->
-    <string name="volume_steps_title">Trepte volum</string>
-    <string name="volume_steps_summary">Controlează granularitatea fiecărui flux</string>
-    <string name="max_music_volume_title">Media</string>
-    <string name="max_call_volume_title">Apeluri</string>
-    <string name="max_alarm_volume_title">Alarme</string>
-    <string name="steps_unit">pași</string>
     <!-- AOD Schedule -->
     <string name="always_on_display_schedule_title">Afişare ecran</string>
     <string name="always_on_display_schedule_summary">Setare program pentru afișare permanentă</string>
@@ -1109,8 +1087,8 @@ O donație mică ajută la menținerea acestui proiect în viață și la îmbun
     <!-- Brightness Slider Style -->
     <string name="qs_brightness_slider_shape_title">Forma glisorului luminozitate</string>
     <!-- Force LTE_CA -->
-    <string name="force_lte_ca">Forțează LTE CA</string>
-    <string name="force_lte_ca_summary">Forțează agregarea transportatorului LTE să funcționeze</string>
+    <string name="force_lte_ca_title">Agregarea transportatorului LTE</string>
+    <string name="force_lte_ca_summary">Îmbunătățește lățimea de bandă LTE prin agregarea benzilor acceptate</string>
     <!-- QS on lockscreen -->
     <string name="lockscreen_quick_settings_title">QS pe ecranul de blocare</string>
     <string name="lockscreen_quick_settings_summary">Permite glisarea în jos pe ecranul de blocare pentru a vizualiza Setările Rapide</string>
@@ -1156,6 +1134,7 @@ O donație mică ajută la menținerea acestui proiect în viață și la îmbun
     <string name="pulse_renderer_retro_vu_meter">Retro VU metru</string>
     <string name="pulse_renderer_minimal_wave">Valuri minime</string>
     <string name="pulse_renderer_sparkle">Strălucire</string>
+    <string name="pulse_renderer_matrix">Matrice</string>
     <!-- Notification Row -->
     <string name="notification_row_transparency_title">Notificări translucide</string>
     <string name="notification_row_transparency_summary">Setează fundal translucid pentru notificări în QS</string>
@@ -1170,4 +1149,8 @@ O donație mică ajută la menținerea acestui proiect în viață și la îmbun
     <!-- Vbmeta hash attestation -->
     <string name="vbmeta_attestation_title">Reparare detectare VBMeta</string>
     <string name="vbmeta_attestation_summary">Efectuează atestare cheie pentru a genera boothash verificat la pornire. Necesită repornirea sistemului.</string>
+    <!-- Menu option for not validating the EAP server -->
+    <string name="wifi_do_not_validate_eap_server">Nu valida</string>
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <string name="wifi_do_not_validate_eap_server_warning">Nu s-a specificat niciun certificat. Conexiunea nu va fi privată.</string>
 </resources>

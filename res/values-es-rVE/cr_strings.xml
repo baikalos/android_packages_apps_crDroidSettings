@@ -90,7 +90,7 @@
     <string name="crdroid_donate_message">crDroid Android es un proyecto de código abierto que necesita tu ayuda para mantener nuestro sitio web en línea, nuestros servidores de compilación en funcionamiento y para ofrecer compilaciones de alta calidad para tu dispositivo.\n\n
 Una pequeña donación ayuda a mantener este proyecto vivo y en constante mejora. Puedes ignorar este mensaje, pero tu apoyo es muy importante para nosotros.</string>
     <string name="crdroid_donate_button">Dona ahora</string>
-    <string name="crdroid_later_button">Quizás más tarde</string>
+    <string name="crdroid_later_button">Quizás el próximo mes</string>
     <string name="crdroid_channel_name">Notificaciones de crDroid</string>
     <string name="crdroid_channel_desc">Notificaciones específicas del proyecto</string>
     <string name="crdroid_donate_still_needed">Todavía necesitamos €%,d este mes. Ayúdanos a alcanzar nuestra meta.</string>
@@ -121,12 +121,6 @@ Una pequeña donación ayuda a mantener este proyecto vivo y en constante mejora
     <string name="status_bar_battery_category_title">Personalizar batería</string>
     <!-- Gestures -->
     <string name="gestures_title">Gestos</string>
-    <!-- 4G icon -->
-    <string name="show_fourg_icon_title">Icono 4G</string>
-    <string name="show_fourg_icon_summary">Mostrar icono 4G como icono de señal en lugar de LTE</string>
-    <!-- Data disabled indicator -->
-    <string name="data_disabled_icon_title">Indicador de datos deshabilitado</string>
-    <string name="data_disabled_icon_summary">Mostar un indicador junto a la barra de señal cuando los datos esten deshabilitados</string>
     <!-- Lockscreen categories -->
     <string name="lockscreen_interface_category">Interfaz</string>
     <!-- Lockscreen battery info indicator -->
@@ -364,14 +358,8 @@ Una pequeña donación ayuda a mantener este proyecto vivo y en constante mejora
     <string name="status_bar_clock_position_right">Derecha</string>
     <string name="status_bar_clock_position_left">Izquierda</string>
     <string name="status_bar_clock_position_center">Centro</string>
-    <string name="status_bar_clock_position_hidden">Oculto</string>
     <string name="status_bar_clock_auto_hide_title">Ocultar automáticamente</string>
-    <string name="status_bar_clock_auto_hide_launcher_summary">Ocultar reloj si la pantalla de inicio está visible</string>
-    <string name="status_bar_clock_auto_hide_summary">Ocultar el reloj a intervalos regulares</string>
-    <string name="status_bar_clock_auto_hide_hdur_title">Ocultar duración</string>
-    <string name="status_bar_clock_auto_hide_hdur_summary">Número de segundos que el reloj permanece oculto</string>
-    <string name="status_bar_clock_auto_hide_sdur_title">Mostrar duración</string>
-    <string name="status_bar_clock_auto_hide_sdur_summary">Número de segundos a esperar antes de ocultar el reloj</string>
+    <string name="status_bar_clock_auto_hide_summary">Ocultar reloj si la pantalla de inicio está visible</string>
     <string name="status_bar_am_pm_title">Formato AM/PM</string>
     <string name="status_bar_am_pm_info">El formato de 24 horas está activado</string>
     <string name="status_bar_am_pm_normal">Predeterminado</string>
@@ -392,7 +380,6 @@ Una pequeña donación ayuda a mantener este proyecto vivo y en constante mejora
     <string name="clock_date_position">Posición de la fecha</string>
     <string name="clock_date_right">A la derecha de la hora</string>
     <string name="clock_date_left">A la izquierda de la hora</string>
-    <string name="clock_font_size_title">Tamaño de fuente del reloj</string>
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">Estilo del icono de la batería</string>
     <string name="status_bar_battery_style_icon_portrait">Icono vertical</string>
@@ -406,6 +393,7 @@ Una pequeña donación ayuda a mantener este proyecto vivo y en constante mejora
     <string name="status_bar_battery_percent_title">Porcentaje de la batería</string>
     <string name="status_bar_battery_percent_hidden">Oculto</string>
     <string name="status_bar_battery_percent_text_inside">Dentro del icono</string>
+    <string name="status_bar_battery_percent_text_next">Next to the icon</string>
     <string name="status_bar_battery_percent_text_next_right">Junto al icono (derecha)</string>
     <string name="status_bar_battery_percent_text_next_left">Junto al icono (izquierda)</string>
     <string name="status_bar_battery_text_charging_title">Porcentaje de batería durante la carga</string>
@@ -531,7 +519,7 @@ Una pequeña donación ayuda a mantener este proyecto vivo y en constante mejora
     <!-- Brightness slider / QS tile haptic feedback -->
     <string name="qs_brightness_slider_haptic_title">Respuesta háptica</string>
     <string name="qs_brightness_slider_haptic_summary">Devolver una respuesta háptica cada vez que se deslice la barra del brillo</string>
-    <string name="qs_tile_haptic_summary">Provide haptic feedback on tapping QS tiles</string>
+    <string name="qs_tile_haptic_summary">Proporcionar retroalimentación háptica al tocar los mosaicos de ajustes rápidos</string>
     <!-- Quick Settings brightness icon -->
     <string name="qs_show_auto_brightness_title">Icono de brillo automático</string>
     <string name="qs_show_auto_brightness_summary">Mostrar el icono de brillo automático al lado de la barra de brillo</string>
@@ -640,9 +628,6 @@ Una pequeña donación ayuda a mantener este proyecto vivo y en constante mejora
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">Efecto al desbloquear</string>
     <string name="enable_fingerprint_ripple_effect_summary">Mostrar efecto al desbloquear con huella</string>
-    <!-- Old mobiletype icon style -->
-    <string name="old_mobiletype_title">Icono antiguo de señal</string>
-    <string name="old_mobiletype_summary">Combinar iconos de señal y tipo de señal</string>
     <!-- Screen Off animation -->
     <string name="screen_off_animation_title">Animación al apagar la pantalla</string>
     <string name="screen_off_animation_default">Predeterminado</string>
@@ -999,13 +984,6 @@ Una pequeña donación ayuda a mantener este proyecto vivo y en constante mejora
     <string name="qs_header_offset_title">Desplazamiento de la imagen de cabecera</string>
     <string name="qs_header_offset_summary">Ajustar el tamaño de la cabecera de la imagen</string>
     <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
-    <!-- Volume Steps -->
-    <string name="volume_steps_title">Niveles de volumen</string>
-    <string name="volume_steps_summary">Controla la granularidad de cada flujo</string>
-    <string name="max_music_volume_title">Multimedia</string>
-    <string name="max_call_volume_title">Llamadas</string>
-    <string name="max_alarm_volume_title">Alarmas</string>
-    <string name="steps_unit">pasos</string>
     <!-- AOD Schedule -->
     <string name="always_on_display_schedule_title">Horario de AOD</string>
     <string name="always_on_display_schedule_summary">Establecer programación para AOD</string>
@@ -1106,8 +1084,8 @@ Una pequeña donación ayuda a mantener este proyecto vivo y en constante mejora
     <!-- Brightness Slider Style -->
     <string name="qs_brightness_slider_shape_title">Estilo de la Barra de Brillo</string>
     <!-- Force LTE_CA -->
-    <string name="force_lte_ca">Forzar LTE CA</string>
-    <string name="force_lte_ca_summary">Forzar la agregación de portadores LTE</string>
+    <string name="force_lte_ca_title">Agregación de transportista LTE</string>
+    <string name="force_lte_ca_summary">Mejora el ancho de banda LTE al agregar las bandas compatibles</string>
     <!-- QS on lockscreen -->
     <string name="lockscreen_quick_settings_title">Ajustes Rápidos en la Pantalla de Bloqueo</string>
     <string name="lockscreen_quick_settings_summary">Permitir Deslizar Hacia Abajo en la Pantalla de Bloqueo Para Ver los Ajustes Rápidos</string>
@@ -1153,6 +1131,7 @@ Una pequeña donación ayuda a mantener este proyecto vivo y en constante mejora
     <string name="pulse_renderer_retro_vu_meter">Indicador Analógico</string>
     <string name="pulse_renderer_minimal_wave">Onda Mínima</string>
     <string name="pulse_renderer_sparkle">Destellos</string>
+    <string name="pulse_renderer_matrix">Matrix</string>
     <!-- Notification Row -->
     <string name="notification_row_transparency_title">Notificaciones Translúcidas</string>
     <string name="notification_row_transparency_summary">Establecer Fondo Traslúcido para las Notificaciones en Configuración Rápida</string>
@@ -1167,4 +1146,8 @@ Una pequeña donación ayuda a mantener este proyecto vivo y en constante mejora
     <!-- Vbmeta hash attestation -->
     <string name="vbmeta_attestation_title">Detección de autocorrección VBMeta</string>
     <string name="vbmeta_attestation_summary">Realiza la certificación de clave para generar un hash de arranque verificado al iniciar. Requiere reiniciar el sistema.</string>
+    <!-- Menu option for not validating the EAP server -->
+    <string name="wifi_do_not_validate_eap_server">No validar</string>
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <string name="wifi_do_not_validate_eap_server_warning">No se especificó ningún certificado. Tu conexión no será privada.</string>
 </resources>

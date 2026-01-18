@@ -90,7 +90,7 @@
     <string name="crdroid_donate_message">crDroid Android is an open-source project which needs your help to keep website online, our build servers running, and to deliver high-quality builds for your device.\n\n
 A small donation helps keep this project alive and improving. You can dismiss this message, but your support means a lot to us.</string>
     <string name="crdroid_donate_button">Donate now</string>
-    <string name="crdroid_later_button">Maybe later</string>
+    <string name="crdroid_later_button">Maybe next month</string>
     <string name="crdroid_channel_name">crDroid notifications</string>
     <string name="crdroid_channel_desc">Project specific notifications</string>
     <string name="crdroid_donate_still_needed">We still need €%,d this month. Help us reach our goal.</string>
@@ -121,12 +121,6 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <string name="status_bar_battery_category_title">Akukohandused</string>
     <!-- Gestures -->
     <string name="gestures_title">Viiped</string>
-    <!-- 4G icon -->
-    <string name="show_fourg_icon_title">4G ikoon</string>
-    <string name="show_fourg_icon_summary">Kuva signaaliikoonil LTE asemel 4G ikoon</string>
-    <!-- Data disabled indicator -->
-    <string name="data_disabled_icon_title">Andmeside keelamise indikaator</string>
-    <string name="data_disabled_icon_summary">Kuva andmeside keelamise korral signaaliikooni kõrval vastav ikoon</string>
     <!-- Lockscreen categories -->
     <string name="lockscreen_interface_category">Kasutajaliides</string>
     <!-- Lockscreen battery info indicator -->
@@ -364,14 +358,8 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <string name="status_bar_clock_position_right">Paremal</string>
     <string name="status_bar_clock_position_left">Vasakul</string>
     <string name="status_bar_clock_position_center">Keskel</string>
-    <string name="status_bar_clock_position_hidden">Peidetud</string>
     <string name="status_bar_clock_auto_hide_title">Peida automaatselt</string>
-    <string name="status_bar_clock_auto_hide_launcher_summary">Peida kell, kui avakuva on nähtaval</string>
-    <string name="status_bar_clock_auto_hide_summary">Peida kell regulaarse intervalli tagant</string>
-    <string name="status_bar_clock_auto_hide_hdur_title">Peitmise kestus</string>
-    <string name="status_bar_clock_auto_hide_hdur_summary">Aeg sekundites, kauaks kell peita</string>
-    <string name="status_bar_clock_auto_hide_sdur_title">Kuvamise kestus</string>
-    <string name="status_bar_clock_auto_hide_sdur_summary">Aeg sekundites, kauaks kella näidata</string>
+    <string name="status_bar_clock_auto_hide_summary">Peida kell, kui avakuva on nähtaval</string>
     <string name="status_bar_am_pm_title">AM/PM stiil</string>
     <string name="status_bar_am_pm_info">24-tunnine kell on valitud</string>
     <string name="status_bar_am_pm_normal">Tavaline</string>
@@ -392,7 +380,6 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <string name="clock_date_position">Kuupäeva asukoht</string>
     <string name="clock_date_right">Kellast paremal</string>
     <string name="clock_date_left">Kellast vasakul</string>
-    <string name="clock_font_size_title">Kella fondi suurus</string>
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">Aku ikooni stiil</string>
     <string name="status_bar_battery_style_icon_portrait">Ikoon püstasendis</string>
@@ -406,6 +393,7 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <string name="status_bar_battery_percent_title">Akuprotsent</string>
     <string name="status_bar_battery_percent_hidden">Peidetud</string>
     <string name="status_bar_battery_percent_text_inside">Ikooni sees</string>
+    <string name="status_bar_battery_percent_text_next">Next to the icon</string>
     <string name="status_bar_battery_percent_text_next_right">Ikooni kõrval (paremal)</string>
     <string name="status_bar_battery_percent_text_next_left">Ikooni kõrval (vasakul)</string>
     <string name="status_bar_battery_text_charging_title">Aku protsent laadimisel</string>
@@ -640,9 +628,6 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">Lainetusefekt</string>
     <string name="enable_fingerprint_ripple_effect_summary">Kuva sõrmejälgega avamisel lainetusefekti</string>
-    <!-- Old mobiletype icon style -->
-    <string name="old_mobiletype_title">Vanas stiilis signaaliikoon</string>
-    <string name="old_mobiletype_summary">Ühenda signaali ja signaali tüübi ikoonid</string>
     <!-- Screen Off animation -->
     <string name="screen_off_animation_title">Ekraani väljalülituse animatsioon</string>
     <string name="screen_off_animation_default">Vaikimisi</string>
@@ -999,13 +984,6 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <string name="qs_header_offset_title">Päisepildi nihe</string>
     <string name="qs_header_offset_summary">Reguleeri päisepildi suurust</string>
     <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
-    <!-- Volume Steps -->
-    <string name="volume_steps_title">Helitugevuse astmed</string>
-    <string name="volume_steps_summary">Juhi iga voo granulaarsust</string>
-    <string name="max_music_volume_title">Meedia</string>
-    <string name="max_call_volume_title">Kõned</string>
-    <string name="max_alarm_volume_title">Äratused</string>
-    <string name="steps_unit">astet</string>
     <!-- AOD Schedule -->
     <string name="always_on_display_schedule_title">Kuvamise ajakava</string>
     <string name="always_on_display_schedule_summary">Määra alati sees ekraanile ajakava</string>
@@ -1106,8 +1084,8 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <!-- Brightness Slider Style -->
     <string name="qs_brightness_slider_shape_title">Brightness slider shape</string>
     <!-- Force LTE_CA -->
-    <string name="force_lte_ca">Force LTE CA</string>
-    <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
+    <string name="force_lte_ca_title">LTE carrier aggregation</string>
+    <string name="force_lte_ca_summary">Enhances LTE bandwidth by aggregating supported bands</string>
     <!-- QS on lockscreen -->
     <string name="lockscreen_quick_settings_title">QS on lock screen</string>
     <string name="lockscreen_quick_settings_summary">Allow swipe down on lock screen to view Quick Settings</string>
@@ -1153,6 +1131,7 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <string name="pulse_renderer_retro_vu_meter">Retro VU meter</string>
     <string name="pulse_renderer_minimal_wave">Minimal wave</string>
     <string name="pulse_renderer_sparkle">Sparkle</string>
+    <string name="pulse_renderer_matrix">Matrix</string>
     <!-- Notification Row -->
     <string name="notification_row_transparency_title">Translucent notifications</string>
     <string name="notification_row_transparency_summary">Set translucent background for notifications in QS</string>
@@ -1167,4 +1146,8 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <!-- Vbmeta hash attestation -->
     <string name="vbmeta_attestation_title">Autofix VBMeta detection</string>
     <string name="vbmeta_attestation_summary">Perform key attestation to generate verified boot hash on boot. Requires system restart.</string>
+    <!-- Menu option for not validating the EAP server -->
+    <string name="wifi_do_not_validate_eap_server">Do not validate</string>
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <string name="wifi_do_not_validate_eap_server_warning">No certificate specified. Your connection will not be private.</string>
 </resources>

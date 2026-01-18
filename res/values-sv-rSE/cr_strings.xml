@@ -90,7 +90,7 @@
     <string name="crdroid_donate_message">crDroid Android är ett projekt med öppen källkod som behöver din hjälp för att hålla hemsidan igång, hålla igång våra bygg-servrar och för att leverera högkvalitativa byggnationer till din enhet.\n\n
 En liten donation hjälper oss att hålla det här projektet vid liv och för att förbättra det. Du kan stänga det här meddelandet, men ditt stöd betyder jättemycket för oss.</string>
     <string name="crdroid_donate_button">Donera nu</string>
-    <string name="crdroid_later_button">Kanske senare</string>
+    <string name="crdroid_later_button">Maybe next month</string>
     <string name="crdroid_channel_name">crDroid-aviseringar</string>
     <string name="crdroid_channel_desc">Projektspecifika aviseringar</string>
     <string name="crdroid_donate_still_needed">Vi behöver fortfarande € %,d den här månaden. Hjälp oss att nå vårt mål.</string>
@@ -121,12 +121,6 @@ En liten donation hjälper oss att hålla det här projektet vid liv och för at
     <string name="status_bar_battery_category_title">Anpassningar av batteri</string>
     <!-- Gestures -->
     <string name="gestures_title">Gester</string>
-    <!-- 4G icon -->
-    <string name="show_fourg_icon_title">Ikon för 4G</string>
-    <string name="show_fourg_icon_summary">Visa ikon för 4G inuti signalikonen istället för LTE</string>
-    <!-- Data disabled indicator -->
-    <string name="data_disabled_icon_title">Indikator för inaktiverad data</string>
-    <string name="data_disabled_icon_summary">Visa en indikator intill signalikonen när datatrafik är inaktiverad</string>
     <!-- Lockscreen categories -->
     <string name="lockscreen_interface_category">Gränssnitt</string>
     <!-- Lockscreen battery info indicator -->
@@ -364,14 +358,8 @@ En liten donation hjälper oss att hålla det här projektet vid liv och för at
     <string name="status_bar_clock_position_right">Höger</string>
     <string name="status_bar_clock_position_left">Vänster</string>
     <string name="status_bar_clock_position_center">Centrerad</string>
-    <string name="status_bar_clock_position_hidden">Dold</string>
     <string name="status_bar_clock_auto_hide_title">Dölj automatiskt</string>
-    <string name="status_bar_clock_auto_hide_launcher_summary">Dölj klockan om launcher är synlig</string>
-    <string name="status_bar_clock_auto_hide_summary">Dölj klockan vid regelbundet intervall</string>
-    <string name="status_bar_clock_auto_hide_hdur_title">Tidsperiod att dölja</string>
-    <string name="status_bar_clock_auto_hide_hdur_summary">Antal sekunder som klockan döljs</string>
-    <string name="status_bar_clock_auto_hide_sdur_title">Tidsperiod att visa</string>
-    <string name="status_bar_clock_auto_hide_sdur_summary">Antal sekunder som inväntas innan klockan döljs</string>
+    <string name="status_bar_clock_auto_hide_summary">Dölj klockan om launcher är synlig</string>
     <string name="status_bar_am_pm_title">FM/EM-stil</string>
     <string name="status_bar_am_pm_info">24-timmarsklocka är aktiverad</string>
     <string name="status_bar_am_pm_normal">Normal</string>
@@ -392,7 +380,6 @@ En liten donation hjälper oss att hålla det här projektet vid liv och för at
     <string name="clock_date_position">Datumposition</string>
     <string name="clock_date_right">Till höger om tid</string>
     <string name="clock_date_left">Till vänster om tid</string>
-    <string name="clock_font_size_title">Klocka - Teckenstorlek</string>
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">Stil på batteri</string>
     <string name="status_bar_battery_style_icon_portrait">Ikon i stående läge</string>
@@ -406,6 +393,7 @@ En liten donation hjälper oss att hålla det här projektet vid liv och för at
     <string name="status_bar_battery_percent_title">Batteriprocent</string>
     <string name="status_bar_battery_percent_hidden">Dold</string>
     <string name="status_bar_battery_percent_text_inside">Inuti ikonen</string>
+    <string name="status_bar_battery_percent_text_next">Next to the icon</string>
     <string name="status_bar_battery_percent_text_next_right">Bredvid ikonen (till höger)</string>
     <string name="status_bar_battery_percent_text_next_left">Bredvid ikonen (till vänster)</string>
     <string name="status_bar_battery_text_charging_title">Visa batteriprocent när enheten laddas</string>
@@ -640,9 +628,6 @@ En liten donation hjälper oss att hålla det här projektet vid liv och för at
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">Rippel effekt</string>
     <string name="enable_fingerprint_ripple_effect_summary">Visa rippel effekt vid upplåsning med fingeravtryck</string>
-    <!-- Old mobiletype icon style -->
-    <string name="old_mobiletype_title">Gammal stil på signalikon</string>
-    <string name="old_mobiletype_summary">Slå ihop signal- och signaltypsikoner</string>
     <!-- Screen Off animation -->
     <string name="screen_off_animation_title">Avstängningsanimering</string>
     <string name="screen_off_animation_default">Standard</string>
@@ -999,13 +984,6 @@ En liten donation hjälper oss att hålla det här projektet vid liv och för at
     <string name="qs_header_offset_title">Header image offset</string>
     <string name="qs_header_offset_summary">Adjust the image header size</string>
     <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
-    <!-- Volume Steps -->
-    <string name="volume_steps_title">Volymsteg</string>
-    <string name="volume_steps_summary">Kontrollera granulariteten av varje reglage</string>
-    <string name="max_music_volume_title">Media</string>
-    <string name="max_call_volume_title">Samtal</string>
-    <string name="max_alarm_volume_title">Larm</string>
-    <string name="steps_unit">steg</string>
     <!-- AOD Schedule -->
     <string name="always_on_display_schedule_title">Skärm schema</string>
     <string name="always_on_display_schedule_summary">Ställ in schema för att alltid på</string>
@@ -1106,8 +1084,8 @@ En liten donation hjälper oss att hålla det här projektet vid liv och för at
     <!-- Brightness Slider Style -->
     <string name="qs_brightness_slider_shape_title">Stil på ljusstyrkereglaget</string>
     <!-- Force LTE_CA -->
-    <string name="force_lte_ca">Tvinga LTE CA</string>
-    <string name="force_lte_ca_summary">Tvinga LTE CA att fungera</string>
+    <string name="force_lte_ca_title">LTE carrier aggregation</string>
+    <string name="force_lte_ca_summary">Enhances LTE bandwidth by aggregating supported bands</string>
     <!-- QS on lockscreen -->
     <string name="lockscreen_quick_settings_title">Snabbinställningar på låsskärmen</string>
     <string name="lockscreen_quick_settings_summary">Tillåt svep ner på låsskärmen för att visa snabbinställningar</string>
@@ -1153,6 +1131,7 @@ En liten donation hjälper oss att hålla det här projektet vid liv och för at
     <string name="pulse_renderer_retro_vu_meter">Retro VU meter</string>
     <string name="pulse_renderer_minimal_wave">Minimal våg</string>
     <string name="pulse_renderer_sparkle">Sprakande</string>
+    <string name="pulse_renderer_matrix">Matrix</string>
     <!-- Notification Row -->
     <string name="notification_row_transparency_title">Genomskinliga aviseringar</string>
     <string name="notification_row_transparency_summary">Set translucent background for notifications in QS</string>
@@ -1167,4 +1146,8 @@ En liten donation hjälper oss att hålla det här projektet vid liv och för at
     <!-- Vbmeta hash attestation -->
     <string name="vbmeta_attestation_title">Autofix VBMeta detection</string>
     <string name="vbmeta_attestation_summary">Perform key attestation to generate verified boot hash on boot. Requires system restart.</string>
+    <!-- Menu option for not validating the EAP server -->
+    <string name="wifi_do_not_validate_eap_server">Do not validate</string>
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <string name="wifi_do_not_validate_eap_server_warning">No certificate specified. Your connection will not be private.</string>
 </resources>
