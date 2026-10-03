@@ -60,7 +60,7 @@ public class About extends SettingsPreferenceFragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.crdroid_settings_about);
+        addPreferencesFromResource(R.xml.baikalos_settings_about);
 
         mSourceUrl = findPreference(KEY_CRDROID_SOURCE);
         mTelegramUrl = findPreference(KEY_CRDROID_TELEGRAM);
@@ -75,9 +75,9 @@ public class About extends SettingsPreferenceFragment {
     @Override
     public boolean onPreferenceTreeClick(Preference preference) {
         if (preference == mSourceUrl) {
-            launchUrl("https://github.com/crdroidandroid");
+            launchUrl("https://github.com/baikalos");
         } else if (preference == mTelegramUrl) {
-            launchUrl("https://t.me/crDroidAndroid");
+            launchUrl("https://t.me/BaikalOS");
         } else if (preference == mShare) {
             Intent intent = new Intent();
             intent.setAction(Intent.ACTION_SEND);
@@ -86,15 +86,15 @@ public class About extends SettingsPreferenceFragment {
                     getActivity().getString(R.string.share_message), Build.MODEL));
             startActivity(Intent.createChooser(intent, getActivity().getString(R.string.share_chooser_title)));
         } else if (preference == mTranslate) {
-            launchUrl("https://crdroid.net/translations.php");
+            //launchUrl("https://crdroid.net/translations.php");
         } else if (preference == mWebsite) {
-            launchUrl("https://crdroid.net");
+            //launchUrl("https://crdroid.net");
         } else if (preference == mTelegramChannelUrl) {
-            launchUrl("https://t.me/crDroidUpdates");
+            //launchUrl("https://t.me/crDroidUpdates");
         } else if (preference == mSponsor) {
-            launchUrl("https://www.scopehosts.com");
+            //launchUrl("https://www.scopehosts.com");
         } else if (preference == mBuildServerSponsor){
-            launchUrl("https://www.interserver.net/r/836686");
+            //launchUrl("https://www.interserver.net/r/836686");
         }
 
         return super.onPreferenceTreeClick(preference);
@@ -115,5 +115,5 @@ public class About extends SettingsPreferenceFragment {
      * For search
      */
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.crdroid_settings_about);
+            new BaseSearchIndexProvider(R.xml.baikalos_settings_about);
 }
