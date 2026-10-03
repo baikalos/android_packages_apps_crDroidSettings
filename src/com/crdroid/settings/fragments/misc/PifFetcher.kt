@@ -33,6 +33,9 @@ internal object PifFetcher {
     private val VERSIONS_REGEX =
         Regex("""(?:https://developer\.android\.com)?/about/versions/(\d+)""")
 
+    private val VERSIONS_REGEX_ALL =
+        Regex("""(?:https://developer\.android\.com)?(/about/versions/\d+(?:/qpr\d+)?)""")
+
     enum class PifChannel { LATEST_RELEASE, CANARY }
 
     data class PifDevice(
@@ -148,6 +151,23 @@ internal object PifFetcher {
         }
     }
 
+    private fun fetchKnownVersions1(): List<String> {
+        val versionsHtml = URL("$GOOGLE_URL/about/versions").readText(StandardCharsets.UTF_8)
+
+        return VERSIONS_REGEX_ALL.findAll(versionsHtml)
+            .map { it.groupValues[1] }
+            .distinct()
+            .sortedWith(
+                compareByDescending<String> {
+                    Regex("""/(\d+)""").find(it)!!.groupValues[1].toInt()
+                }.thenByDescending {
+                    Regex("""/qpr(\d+)""").find(it)?.groupValues?.get(1)?.toInt() ?: 0
+                }
+            )
+            .toList()
+
+    }
+
     private fun fetchKnownVersions(): List<Int> {
         val versionsHtml = URL("$GOOGLE_URL/about/versions").readText(StandardCharsets.UTF_8)
         return VERSIONS_REGEX.findAll(versionsHtml)
@@ -156,18 +176,26 @@ internal object PifFetcher {
 
     /** Scrapes the developer site for every device with a beta OTA. */
     private fun fetchAvailableDevices(): List<PifDevice> {
-        val knownVersions = fetchKnownVersions()
 
-        val maxVersion = knownVersions.firstOrNull() ?: return emptyList()
-        val versions = listOf(maxVersion + 1) + knownVersions
+        //val knownVersions = fetchKnownVersions()
+        //Log.e(TAG, "Fetched versions: ${knownVersions}" )
 
-        for (version in versions) {
+        //val knownVersions1 = fetchKnownVersions1()
+        //Log.e(TAG, "Fetched versions: ${knownVersions1}" )
+
+        //val maxVersion = knownVersions.firstOrNull() ?: return emptyList()
+        //val versions = listOf(maxVersion + 1) + knownVersions
+
+        //for (version in knownVersions1 /* versions */) {
+        // val version
             try {
-                val downloadUrl = "$GOOGLE_URL/about/versions/$version/download-ota"
+                // val downloadUrl = "$GOOGLE_URL/about/versions/$version/download-ota"
+                // val downloadUrl = "$GOOGLE_URL$version/download-ota"
+                val downloadUrl = "$GOOGLE_URL/about/versions/17/qpr2/download-ota"
                 val otaHtml = URL(downloadUrl).readText(StandardCharsets.UTF_8)
                 val otaList = Regex("""href="(https://dl\.google\.com/[^"]*ota/([^/"]+_beta)[^"]*?)"""")
                     .findAll(otaHtml).map { it.groupValues[1] to it.groupValues[2] }.toList()
-                if (otaList.isEmpty()) continue
+                //if (otaList.isEmpty()) continue
 
                 val devices = mutableListOf<PifDevice>()
                 val seen = mutableSetOf<String>()
@@ -179,8 +207,8 @@ internal object PifFetcher {
                     devices.add(PifDevice(product, device, model, otaUrl))
                 }
                 if (devices.isNotEmpty()) return devices
-            } catch (_: Exception) { continue }
-        }
+            } catch (_: Exception) { /*continue*/ }
+        //}
         return emptyList()
     }
 
@@ -223,6 +251,8 @@ internal object PifFetcher {
     private fun fetchAvailableCanaryDevices(): Pair<List<PifDevice>, String?> {
         try {
             val knownVersions = fetchKnownVersions()
+
+            Log.e(TAG, "Fetched versions: ${knownVersions}" )
 
             val maxVersion = knownVersions.firstOrNull() ?: return emptyList<PifDevice>() to null
             val versions = listOf(maxVersion + 1) + knownVersions
